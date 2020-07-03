@@ -392,6 +392,10 @@
                             margin-left: 10px;
                             margin-top: -1px;
                         }
+                        .list-title {
+                            color: $primary;
+                            padding: 5px 0px 10px 15px;
+                        }
                     }
                 }
                 > a {
@@ -547,6 +551,10 @@
                             display: block;
                         }
                     }
+                    .list-title {
+                        color: $primary;
+                        padding: 5px 0px 10px 15px;
+                    }
                     &.megamenu {
                         > li {
                             > ul {
@@ -684,6 +692,10 @@
 
 @media (max-width: 768px){
     #topnav {
+        .logo img {
+            max-width: 250px;
+            margin-left: -10px;
+        }
         .buy-button {
             display: none;
         }
