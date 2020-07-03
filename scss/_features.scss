@@ -107,7 +107,7 @@
         font-size: 20px;
     }
     .step, .step-icon {
-        opacity: 0.06;
+        opacity: 0.5;
     }
     a {
         font-size: 15px;
@@ -226,7 +226,7 @@
 .social-feature-left,
 .social-feature-right {
     &:after {
-        background: rgba($primary, 0.1);
+        background: rgba($primary, 0.3);
         box-shadow: 0 0 40px rgba($primary, 0.1);
     }
 }
