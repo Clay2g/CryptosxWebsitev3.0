@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>gas</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="53856%" y1="-3432%" x2="53856%" y2="77792%" id="linearGradient-1">
+            <stop stop-color="#58BF00" offset="0%"></stop>
+            <stop stop-color="#58BF00" offset="23%"></stop>
+            <stop stop-color="#58BF00" offset="42%"></stop>
+            <stop stop-color="#29B800" offset="61%"></stop>
+            <stop stop-color="#00AE1D" offset="78%"></stop>
+            <stop stop-color="#00A62C" offset="99%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gas" fill-rule="nonzero">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="24" cy="24" r="24"></circle>
+            <path d="M37.5,33.8688143 L27.0140479,28.9833443 L27.0140479,18.1538171 L37.5,14.4330506 L37.5,33.8688143 Z M22.234623,39 L12,34.231464 L12,14.9368454 L22.234623,19.707957 L22.234623,39 Z M37.2486708,13.736083 L37.080249,13.7958378 L27.0140479,17.3672174 L26.7627187,17.4568496 L22.4984664,18.969264 L12.4046295,14.265119 L26.7627187,9.17102235 L26.8883833,9.12620625 L27.1548339,9.03193791 L27.2476485,9 L37.3414854,13.7036299 L37.2486708,13.736083 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

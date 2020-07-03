@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>pivx</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pivx" fill-rule="nonzero">
+            <circle id="Oval" fill="#5E4778" cx="24" cy="24" r="24"></circle>
+            <path d="M15.75,18.3620728 L24.9802045,18.3620728 L24.9802045,20.2444882 L15.75,20.2444882 L15.75,18.3620728 Z M33.75,19.2469126 C33.75,23.7079325 30.5837025,26.5883779 26.2084257,26.5883779 L20.1445185,26.5883779 L20.1445185,36 L17.7458013,36 L17.7458013,24.460944 L25.8829401,24.460944 C29.145214,24.460944 31.2752434,22.5221607 31.2752434,19.2469126 C31.2752434,16.0093947 29.145214,14.1269793 25.9211916,14.1269793 L23.3875509,14.1269793 L17.3236438,14.1458444 L17.3236438,12 L26.1887204,12 C30.5832389,12 33.7495363,14.7858929 33.7495363,19.2469126 L33.75,19.2469126 Z" id="Shape" stroke="#FFFFFF" stroke-width="1.5" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

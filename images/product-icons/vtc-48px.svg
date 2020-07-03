@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>vtc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vtc" fill-rule="nonzero">
+            <circle id="Oval" fill="#35633E" cx="24" cy="24" r="24"></circle>
+            <path d="M12.5182973,26.4250204 L12.5215022,26.4227237 L9.3404168,21.984 L18.288,21.984 L22.8904578,28.1206104 L18.4758477,34.4368987 L12.5182973,26.4250204 Z M9.66218331,25.008 L6.696,25.008 L8.29072218,23.0943334 L9.66218331,25.008 Z M19.4192096,35.7055577 L25.7942963,26.5842795 L40.1131767,6.21308874 C41.9014002,7.83402783 43.4441139,9.72089309 44.6788991,11.8112657 L44.664,12.072 L24.9013409,40.1222258 C24.8192084,40.2388011 24.7190463,40.3415622 24.6046131,40.4266536 C24.0089688,40.8695687 23.1670502,40.745757 22.7241351,40.1501127 L19.4192096,35.7055577 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

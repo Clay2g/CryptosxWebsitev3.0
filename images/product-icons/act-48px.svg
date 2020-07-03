@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>act</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="act" fill-rule="nonzero">
+            <circle id="Oval" fill="#767DFF" cx="24" cy="24" r="24"></circle>
+            <path d="M20.6545008,9.75 L27.3454992,9.75 C27.8175263,9.75 28.2527434,10.0049567 28.4835669,10.4166971 L38.8421961,28.8943116 C39.0643339,29.2905588 39.0643788,29.7738228 38.8423146,30.1701113 L35.5289173,36.0830913 C35.2981279,36.4949503 34.8628451,36.75 34.390731,36.75 L13.609269,36.75 C13.137155,36.75 12.701872,36.4949503 12.4710827,36.0830913 L9.15768534,30.1701113 C8.93562117,29.7738228 8.93566609,29.2905588 9.1578039,28.8943116 L19.5164331,10.4166971 C19.7472565,10.0049567 20.1824737,9.75 20.6545008,9.75 Z M24,17.1014852 L17.0198404,29.5321782 L30.9801595,29.5321782 L24,17.1014852 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

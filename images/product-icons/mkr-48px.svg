@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>mkr</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mkr" fill-rule="nonzero">
+            <circle id="Oval" fill="#1ABC9C" cx="24" cy="24" r="24"></circle>
+            <path d="M11.7567845,18.0841762 L11.7567845,33.75 L9,33.75 L9,12.75 L23.5621838,23.2907024 L23.5621838,33.75 L20.8053993,33.75 L20.8053993,24.6339326 L11.7567845,18.0841762 Z M27.1946007,24.6339326 L27.1946007,33.75 L24.4378163,33.75 L24.4378163,23.2907024 L39,12.75 L39,33.75 L36.2432156,33.75 L36.2432156,18.0841762 L27.1946007,24.6339326 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>tnc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tnc" fill-rule="nonzero">
+            <circle id="Oval" fill="#FF439B" cx="24" cy="24" r="24"></circle>
+            <path d="M27.3384963,20.7063665 L35.7879419,35.25 L12.3679834,35.25 L15.1746362,30.5951664 L27.7923771,30.5989986 L24.5942135,25.3776238 L27.3384963,20.7063665 Z M18.7132882,24.0904578 L27.3047643,9.81129435 L39,29.4985847 L33.384726,29.4985847 L27.2039727,18.7578488 L24.2018538,24.0904578 L18.7132882,24.0904578 Z M26.0409216,29.5178773 L9,29.4372903 L20.7099792,9.75 L23.5010396,14.4696655 L17.0457381,24.84662 L23.2966389,24.84662 L26.0409216,29.5178773 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>xvg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="xvg" fill-rule="nonzero">
+            <circle id="Oval" fill="#00CBFF" cx="24" cy="24" r="24"></circle>
+            <path d="M14.4159695,15.50265 L12,10.5 L35.9990922,10.5 L33.6121902,15.50265 L35.9990922,15.50265 L23.9269236,40.5 L12,15.50265 L14.4159695,15.50265 Z M14.4159695,15.50265 L24.0721686,35.49735 L33.6121902,15.50265 L14.4159695,15.50265 Z" id="Shape" fill="#FFFFFF"></path>
+            <polygon id="Shape" fill="#FFFFFF" opacity="0.504" points="24 36.75 12 10.5 35.9985 10.5"></polygon>
+        </g>
+    </g>
+</svg>

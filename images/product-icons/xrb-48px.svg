@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>xrb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="xrb" fill-rule="nonzero">
+            <circle id="Oval" fill="#1FB0E6" cx="24" cy="24" r="24"></circle>
+            <g id="Group" transform="translate(11.250000, 9.000000)" fill="#FFFFFF">
+                <path d="M12.75,10.05885 L12.75,0 L25.5,7.5 L16.9506333,12.5290392 L12.75,10.05885 Z M8.54883814,15 L8.54883814,17.47065 L8.54936666,17.4709608 L0,22.5 L0,15 L8.54883814,15 Z" id="Shape"></path>
+                <path d="M16.9511619,15 L16.9511619,12.52935 L16.9506333,12.5290392 L25.5,7.5 L25.5,15 L16.9511619,15 Z M8.54936666,17.4709608 L12.75,19.94115 L12.75,30 L0,22.5 L8.54936666,17.4709608 Z M8.54936666,12.5290392 L8.54883814,12.52935 L8.54883814,15 L0,15 L0,7.5 L8.54936666,12.5290392 Z" id="Shape" opacity="0.8"></path>
+                <path d="M12.75,19.94115 L16.9511619,17.47065 L16.9511619,15 L25.5,15 L25.5,22.5 L12.75,30 L12.75,19.94115 Z M12.75,10.05885 L8.54936665,12.5290392 L-8.8817842e-16,7.5 L12.75,0 L12.75,10.05885 Z" id="Shape" opacity="0.6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

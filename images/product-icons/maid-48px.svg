@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>maid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="maid" fill-rule="nonzero">
+            <circle id="Oval" fill="#5592D7" cx="24" cy="24" r="24"></circle>
+            <g id="Group" transform="translate(9.000000, 9.000000)" fill="#FFFFFF">
+                <path d="M21.3685714,10 L21.3685714,29.4615384 L4.93714285,19.9999999 C0.0771428571,17.1538461 0.385714286,15.3846155 0.385714286,11.5384615 L17.28,21.3076923 L17.28,12.3846154 L21.3685714,10 Z" id="Shape"></path>
+                <path d="M17.28,21.3076923 L0.385714285,11.5384615 L16.8171429,2.07692307 C21.6771429,-0.692307693 23.0657144,0.461538462 26.46,2.38461539 L9.56571429,12.1538462 L17.28,16.6153847 L17.28,21.3076923 Z" id="Shape" opacity="0.6"></path>
+                <path d="M9.56571429,12.1538462 L26.46,2.38461538 L26.46,21.3076923 C26.46,26.9230768 24.7628571,27.5384616 21.3685715,29.4615384 L21.3685715,10 L13.5771429,14.4615385 L9.56571429,12.1538462 Z" id="Shape" opacity="0.2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

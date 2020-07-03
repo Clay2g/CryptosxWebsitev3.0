@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>emc2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="emc2" fill-rule="nonzero">
+            <circle id="Oval" fill="#00CCFF" cx="24" cy="24" r="24"></circle>
+            <g id="Group" transform="translate(9.000000, 13.500000)" fill="#FFFFFF">
+                <path d="M2.84055,15.2414978 L9.43725,15.2414978 L6.5967,21 L0,21 L2.84055,15.2414978 Z M6.59925,7.62198238 L13.19595,7.62198238 L10.36305,13.3649119 L3.76635,13.3649119 L6.59925,7.62198238 Z M10.35795,0.00246696034 L16.95465,0.00246696034 L14.12175,5.74539648 L7.52505,5.74539648 L10.35795,0.00246696034 Z" id="Shape" fill-opacity="0.4"></path>
+                <path d="M9.4152,15.239185 L16.0119,15.239185 L13.1712,20.9975331 L6.57465,20.9975331 L9.4152,15.239185 Z M13.1739,7.61951542 L19.7706,7.61951542 L16.93755,13.3624449 L10.341,13.3624449 L13.1739,7.61951542 Z M16.9326,0 L23.5293,0 L20.69625,5.74277533 L14.0997,5.74277533 L16.9326,0 Z" id="Shape" fill-opacity="0.6"></path>
+                <path d="M15.8859,15.239185 L22.4826,15.239185 L19.64205,20.9975331 L13.04535,20.9975331 L15.8859,15.239185 Z M19.6446,7.61951542 L26.2413,7.61951542 L23.4084,13.3624449 L16.8117,13.3624449 L19.6446,7.61951542 Z M23.4033,0 L30,0 L27.1671,5.74277533 L20.5704,5.74277533 L23.4033,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

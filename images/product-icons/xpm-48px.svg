@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>xpm</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="xpm" fill-rule="nonzero">
+            <circle id="Oval" fill="#FFD81B" cx="24" cy="24" r="24"></circle>
+            <path d="M36,23.3427317 C36,29.9778753 30.8613793,32.233463 26.535919,32.233463 L26.535919,33.963251 L29.8732267,33.963251 L29.8732267,36.3059827 L26.535919,36.3059827 L26.535919,39 L21.3171597,39 L21.3171597,36.3059827 L18.1263206,36.3059827 L18.1263206,33.963251 L21.3099154,33.963251 L21.3099154,32.211564 C19.9265016,32.211564 12,31.8828546 12,22.8609558 L12,12 L17.1820857,12 L17.1820857,23.2772607 C17.1820857,27.9853003 21.3318744,27.9412768 21.3318744,27.9412768 L21.3318744,12 L26.535919,12 L26.535919,27.9412768 C26.535919,27.9412768 30.8176879,28.1819391 30.8176879,23.2117898 L30.8176879,12 L36,12 L36,23.3427317 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

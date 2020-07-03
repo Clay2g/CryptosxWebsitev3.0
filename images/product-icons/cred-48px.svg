@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>cred</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cred" fill-rule="nonzero">
+            <circle id="Oval" fill="#37E8A3" cx="24" cy="24" r="24"></circle>
+            <path d="M18.2039222,23.9493699 L23.4264634,29.1878453 L37.1211288,15.401703 L39,17.3077804 L23.4264634,33 L16.3250509,25.8554472 L18.2039222,23.9493699 Z M21.3693264,23.48304 L29.7960778,15 L31.674949,16.9060773 L23.2521193,25.3930959 L21.3693264,23.48304 Z M17.9554902,30.7300897 L16.1014125,32.598297 L9,25.453744 L10.8772278,23.549334 L17.9554902,30.7300897 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

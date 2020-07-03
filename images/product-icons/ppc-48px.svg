@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>ppc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ppc" fill-rule="nonzero">
+            <circle id="Oval" fill="#3CB054" cx="24" cy="24" r="24"></circle>
+            <path d="M13.5,11.25 C31.6393143,11.9209388 38.634291,22.8082926 35.1226992,32.5247985 C34.1277434,35.2284765 33.0707325,36.7082812 30.847447,38.25 C30.9380055,37.8604325 31.0312362,37.4687195 31.1016047,37.0699569 C32.4169299,29.4894823 29.9246409,20.3685152 17.7345751,15.3298842 C27.4332428,21.102594 31.3471518,31.3726473 26.8242739,38.0023441 C19.126207,39.2124247 13.5,32.6378988 13.5,25.0632479 L13.5,11.25 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

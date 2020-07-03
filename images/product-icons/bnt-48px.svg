@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>bnt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bnt" fill-rule="nonzero">
+            <circle id="Oval" fill="#000D2B" cx="24" cy="24" r="24"></circle>
+            <path d="M23.88,8.81928 L17.1024,12.79056 L23.88,16.76184 L30.7848,12.79056 L23.88,8.81928 Z M24.99456,30.02112 L24.99456,37.96344 L34.2,32.712 L34.2,24.768 L24.99456,30.02112 Z M31.8984,15.288 L31.8984,23.232 L24.9936,27.20328 L24.9936,19.25928 L31.8984,15.288 Z M15.27648,23.232 L22.18128,27.20328 L22.18128,19.25928 L15.27648,15.288 L15.27648,23.232 Z M15.27648,33.9924 L22.18128,37.96368 L22.18128,30.02112 L15.27648,26.04984 L15.27648,33.99216 L15.27648,33.9924 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

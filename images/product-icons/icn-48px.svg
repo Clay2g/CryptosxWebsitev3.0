@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>icn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn" fill-rule="nonzero">
+            <circle id="Oval" fill="#4C6F8C" cx="24" cy="24" r="24"></circle>
+            <path d="M31.2499999,10.5 L35.25,10.5 L35.25,37.5 L31.2499999,37.5 L31.2499999,10.5 Z M24.5833334,24 L28.5833334,24 L28.5833334,37.5 L24.5833334,37.5 L24.5833334,24 Z M17.9166666,17.25 L21.9166666,17.25 L21.9166666,37.5 L17.9166666,37.5 L17.9166666,17.25 Z M11.25,30.75 L15.25,30.75 L15.25,37.5 L11.25,37.5 L11.25,30.75 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

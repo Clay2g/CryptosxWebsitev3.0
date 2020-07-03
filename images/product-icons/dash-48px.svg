@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>dash</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dash" fill-rule="nonzero">
+            <circle id="Oval" fill="#1C75BC" cx="24" cy="24" r="24"></circle>
+            <path d="M39.8571429,19.4571429 L36.8,29.0285715 C36.8,29.0285715 34.9142857,33.8 30.4285714,33.8 C25.9428571,33.8 8.8,33.8 8.8,33.8 L10.3428571,29.0285715 L29.8857143,29.0285715 L29.9428572,29.0285715 L33.0285714,19.4571429 L13.4571429,19.4571429 L14.9714286,14.6857143 C14.9714286,14.6857143 31.7714286,14.6857143 36.4857143,14.6857143 C41.2,14.6857143 39.8571429,19.4571429 39.8571429,19.4571429 Z M9.57142857,22.0285715 L21.1714286,22.0285715 L19.6857142,26.4571428 L8.05714285,26.4571428 L9.57142857,22.0285715 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>gbp</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gbp" fill-rule="nonzero">
+            <circle id="Oval" fill="#BC3FE0" cx="24" cy="24" r="24"></circle>
+            <path d="M16.6301887,22.2232395 L16.6301887,18.7246479 C16.6301887,13.2105634 19.9584906,9.75 25.7433963,9.75 C30.1415094,9.75 32.5981132,11.6133803 34.5,14.0091549 L30.7754716,16.8612677 C29.3490566,15.1119719 28.0018867,14.0852113 25.7830188,14.0852113 C23.1283018,14.0852113 21.5433963,15.9105635 21.5433963,18.8387324 L21.5433963,22.2232395 L31.4094339,22.2232395 L31.4094339,26.1781691 L21.5433963,26.1781691 L21.5433963,32.6809858 L34.4207547,32.6809858 L34.4207547,36.75 L13.5,36.75 L13.5,33.7838028 L16.6301887,32.8711268 L16.6301887,26.1781691 L13.5,26.1781691 L13.5,22.2232395 L16.6301887,22.2232395 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

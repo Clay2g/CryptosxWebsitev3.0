@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>block</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="block" fill-rule="nonzero">
+            <circle id="Oval" fill="#101341" cx="24" cy="24" r="24"></circle>
+            <g id="Group" transform="translate(8.250000, 10.500000)" fill="#FFFFFF">
+                <path d="M8.28232758,0 L23.625,0 L31.5,13.5 L23.625,27 L8.14655172,27 L15.8857758,13.5 L8.28232758,0 Z M16.4288793,4.74874372 L21.4525862,13.5 L16.4288793,22.2512563 L20.9094828,22.2512563 L25.9331896,13.5 L20.9094828,4.74874372 L16.4288793,4.74874372 Z" id="Shape"></path>
+                <polygon id="Shape" opacity="0.5" points="9.9195 6.039 5.5665 13.5 9.8805 20.895 7.122 25.7085 0 13.5 7.1835 1.1835"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

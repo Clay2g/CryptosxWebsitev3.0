@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>adx</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="adx" fill-rule="nonzero">
+            <circle id="Oval" fill="#1B75BC" cx="24" cy="24" r="24"></circle>
+            <path d="M17.3810014,12.9032334 L24,19.8113208 L30.4576713,12.9032334 L34.5,17.0381235 L27.9065659,23.9987865 L34.5,30.9043462 L30.4576713,35.0943396 L24,28.1886792 L17.3810014,35.0943396 L13.5,31.018868 L20.0389723,23.9602005 L13.5,17.0381235 L17.3810014,12.9032334 Z M17.9125956,12.3396226 L23.9727692,6 L30.0329427,12.3396226 L26.8433777,15.735849 L23.9727692,12.5660377 L21.1021607,15.735849 L17.9125956,12.3396226 Z M17.9125956,35.6603773 L21.1021607,32.264151 L23.9727692,35.4339623 L26.8433777,32.264151 L30.0329427,35.6603773 L23.9727692,42 L17.9125956,35.6603773 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
