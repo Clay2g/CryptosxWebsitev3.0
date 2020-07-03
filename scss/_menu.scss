@@ -24,6 +24,9 @@
             display: inline-block;
         }
     }
+    .logo img {
+        max-width: 300px;
+    }
     .has-submenu {
         &.active {
             a {
