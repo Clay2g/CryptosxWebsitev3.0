@@ -52,7 +52,7 @@
 
     // Clickable Menu
     $(".has-submenu a").click(function() {
-        if(window.innerWidth < 992){
+        if(window.innerWidth < 1200){
             if($(this).parent().hasClass('open')){
                 $(this).siblings('.submenu').removeClass('open');
                 $(this).parent().removeClass('open');

@@ -292,7 +292,7 @@
     letter-spacing: 1px;
     line-height: 68px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     #topnav {
         .navigation-menu {
             display: flex;
@@ -502,7 +502,7 @@
     }
 }
   
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
     #topnav {
         background-color: $white;
         box-shadow: $shadow;
@@ -518,6 +518,10 @@
         .container {
             width: auto;
         }
+        .buy-button {
+            padding-left: 7.5px;
+            margin-left: 7.5px;
+        }     
 
         #navigation{
             max-height: 400px;
@@ -628,7 +632,7 @@
 
     #navigation {
         position: absolute;
-        top: 74px;
+        top: 100px;
         left: 0;
         width: 100%;
         display: none;

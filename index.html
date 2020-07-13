@@ -29,6 +29,7 @@
         <link href="css/style-dark.css" rel="stylesheet" type="text/css" id="theme-opt" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" id="theme-opt" />
         <link href="css/colors/default-dark.css" rel="stylesheet" id="color-opt">
+        <!-- i18n -->
     </head>
 
     <body>
@@ -51,12 +52,12 @@
                     <a class="logo" href="index.html">
                         <img src="images/site-logo.svg" alt="Cryptosx Logo">
                     </a>
-                </div>                 
+                </div>        
                 <div class="buy-button">
-                    <a href="https://app.cryptosx.io/signup" target="_blank" class="btn btn-primary" title="Sign up at Cryptosx">Sign up</a>
+                    <a data-i18n="topNav.signup" href="https://app.cryptosx.io/signup" id="btnLogin" target="_blank" class="btn btn-primary" title="Sign up at Cryptosx">Sign up</a>
                 </div>
                 <div class="buy-button">
-                    <a href="https://app.cryptosx.io/login" target="_blank" class="btn btn-outline-primary" title="Log in to Cryptosx">Log in</a>
+                    <a data-i18n="topNav.login" href="https://app.cryptosx.io/login" id="btnSignup" target="_blank" class="btn btn-outline-primary" title="Log in to Cryptosx">Log in</a>
                 </div><!--end login button-->
                 <!-- End Logo container-->
                 <div class="menu-extras">
@@ -76,60 +77,69 @@
                 <div id="navigation">
                     <!-- Navigation Menu-->   
                     <ul class="navigation-menu">
-                        <li><a href="index.html" title="Homepage" >Home</a></li>
+                        <li><a data-i18n="topNav.home"  href="index.html" title="Homepage" >Home</a></li>
                         <li class="has-submenu">
-                            <a href="javascript:void(0)">Products</a><span class="menu-arrow"></span>
+                            <a data-i18n="topNav.products.products" href="javascript:void(0)">Products</a><span class="menu-arrow"></span>
                             <ul class="submenu megamenu">
                                 <li>
                                     <ul>
-                                        <li class="list-title"><strong>Cryptocurrencies</strong></li>
-                                        <li><a href="index.html" title="Cryptosx Exchange" >Crypto Exchange</a></li>
-                                        <li><a href="mobileapp.html" title="Learn momre about our Mobile App">Mobile App</a></li>
-                                        <li><a href="#" title="Cryptosx Decentralized Exchange">Cryptosx DEX <span class="badge badge-primary rounded">Coming Soon</span></a></li>
+                                        <li class="list-title"><strong data-i18n="topNav.products.cryptoCurrencies">Cryptocurrencies</strong></li>
+                                        <li><a data-i18n="topNav.products.cryptoExchange" href="index.html" title="Cryptosx Exchange" >Crypto Exchange</a></li>
+                                        <li><a data-i18n="topNav.products.mobileApp" href="mobileapp.html" title="Learn momre about our Mobile App">Mobile App</a></li>
+                                        <li><a data-i18n="topNav.products.cryptosxDEX" href="#" title="Cryptosx Decentralized Exchange">Cryptosx DEX <span class="badge badge-primary rounded">Coming Soon</span></a></li>
                                     </ul>
                                 </li>
 
                                 <li>
                                     <ul>
-                                        <li class="list-title"><strong>Security Tokens</strong></li>
-                                        <li><a href="investorportal.html" title="Link to Cryptosx Investor Portal">Investor Portal</a></li>
-                                        <li><a href="https://dxdemo.cryptosx.io" target="_blank" title="Link to Cryptosx Investor Accreditation Portal">Investor Accreditation Portal</a></li>
+                                        <li class="list-title"><strong data-i18n="topNav.products.securityTokens">Security Tokens</strong></li>
+                                        <li><a data-i18n="topNav.products.investorPortal" href="investorportal.html" title="Link to Cryptosx Investor Portal">Investor Portal</a></li>
+                                        <li><a data-i18n="topNav.products.investorAccreditationPortal" href="https://dxdemo.cryptosx.io" target="_blank" title="Link to Cryptosx Investor Accreditation Portal">Investor Accreditation Portal</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
-                                        <li class="list-title"><strong>Asset Tokenization</strong></li>
-                                        <li><a class="text-muted" href="sto.html" title="View our STO Solutions">STO Solutions</a></li>
-                                        <li><a href="digitizer.html" title="View our asset tokenization software">Asset Tokenization Software</a></li>
+                                        <li class="list-title"><strong data-i18n="topNav.products.assetTokenization">Asset Tokenization</strong></li>
+                                        <li><a data-i18n="topNav.products.assetTokenization" class="text-muted" href="sto.html" title="View our STO Solutions">STO Solutions</a></li>
+                                        <li><a data-i18n="topNav.products.assetTokenization" href="digitizer.html" title="View our asset tokenization software">Asset Tokenization Software</a></li>
                                     </ul>
                                 </li>   
                             </ul>
                         </li>
         
                         <li class="has-submenu">
-                            <a href="javascript:void(0)">Company</a><span class="menu-arrow"></span>
+                            <a data-i18n="topNav.company.company" href="javascript:void(0)">Company</a><span class="menu-arrow"></span>
                             <ul class="submenu">
-                                <li><a href="blog.html" title="View our blog"> Blog</a></li>
-                                <li><a href="about.html" title="learn more about Cryptosx"> About Us</a></li>
-                                <li><a href="https://cryptosx.freshdesk.com/en/support/solutions/articles/44001081935-privacy-policy" target="_blank" title="View our privacy policy"> Privacy policy</a></li>
-                                <li><a href="https://cryptosx.freshdesk.com/en/support/solutions/articles/44001082072-terms-and-conditions" target="_blank" title="view our terms and conditions"> Terms & Conditions</a></li>
+                                <li><a data-i18n="topNav.company.blog" href="blog.html" title="View our blog"> Blog</a></li>
+                                <li><a data-i18n="topNav.company.aboutUs" href="about.html" title="learn more about Cryptosx"> About Us</a></li>
+                                <li><a data-i18n="topNav.company.privacyPolicy" href="https://cryptosx.freshdesk.com/en/support/solutions/articles/44001081935-privacy-policy" target="_blank" title="View our privacy policy"> Privacy policy</a></li>
+                                <li><a data-i18n="topNav.company.tnc" href="https://cryptosx.freshdesk.com/en/support/solutions/articles/44001082072-terms-and-conditions" target="_blank" title="view our terms and conditions"> Terms & Conditions</a></li>
                             </ul>
                         </li>
                         <li class="has-submenu">
-                            <a href="javascript:void(0)">Help</a><span class="menu-arrow"></span>
+                            <a data-i18n="topNav.help.help" href="javascript:void(0)">Help</a><span class="menu-arrow"></span>
                             <ul class="submenu">
-                                <li><a href="https://cryptosx.freshdesk.com/en/support/solutions" title="frequently asked questions">FAQ</a></li>
-                                <li><a href="https://cryptosx.freshdesk.com/en/support/solutions/articles/44001340353-fees-schedule" target="_blank" title="our unified fees">Fees Schedule</a></li>
-                                <li><a href="https://cryptosx.freshdesk.com/en/support/home" title="Cryptosx support homepage">Support Center</a></li>
-                                <li><a href="API/index.html" title="view our API documentation">API Documentation <span class="badge badge-primary rounded">v3.3</span></a></li>
+                                <li><a data-i18n="topNav.help.faq" href="https://cryptosx.freshdesk.com/en/support/solutions" title="frequently asked questions">FAQ</a></li>
+                                <li><a data-i18n="topNav.help.fees" href="https://cryptosx.freshdesk.com/en/support/solutions/articles/44001340353-fees-schedule" target="_blank" title="our unified fees">Fees Schedule</a></li>
+                                <li><a data-i18n="topNav.help.supportCenter" href="https://cryptosx.freshdesk.com/en/support/home" title="Cryptosx support homepage">Support Center</a></li>
+                                <li><a data-i18n="topNav.help.API" href="API/index.html" title="view our API documentation">API Documentation <span class="badge badge-primary rounded">v3.3</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a data-i18n="topNav.language" href="javascript:void(0)">Language</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <form>
+                                    <label> <input type="radio" name="lang" value="en" checked /> English </label>
+                                    <label> <input type="radio" name="lang" value="zh" /> 中文 </label>
+                                </form>
                             </ul>
                         </li>
                     </ul><!--end navigation menu-->
                     <div class="buy-menu-btn d-none">
-                        <a href="https://app.cryptosx.io/login" title="log in to Cryptosx" target="_blank" class="btn btn-outline-primary">Log in</a>
+                        <a data-i18n="topNav.login" href="https://app.cryptosx.io/login" title="log in to Cryptosx" target="_blank" class="btn btn-outline-primary">Log in</a>
                     </div><!--end login button-->
                     <div class="buy-menu-btn d-none">
-                        <a href="https://app.cryptosx.io/signup" title="sign up at Cryptosx" target="_blank" class="btn btn-outline-primary">Sign up</a>
+                        <a data-i18n="topNav.signup" href="https://app.cryptosx.io/signup" title="sign up at Cryptosx" target="_blank" class="btn btn-outline-primary">Sign up</a>
                     </div><!--end login button-->
                 </div><!--end navigation-->
             </div><!--end container-->
@@ -143,13 +153,13 @@
                         <div class="title-heading mt-4">
                             <div class="alert alert-transparent alert-pills shadow" role="alert">
                                 <span class="badge badge-pill badge-primary mr-1">New</span>
-                                <span class="content">Added phone deposit support 📱</span>
+                                <span data-i18n="home.titleBanner" class="content">Added phone deposit support 📱</span>
                             </div>
-                            <h1 class="mb-3">Buy and sell <span class="text-warning">Bitcoin</span> and other Cryptocurrencies with cash</h1>
-                            <p class="para-desc text-muted">We are helping people all over the world to become crypto investors in a more accessible way.</p>
+                            <h1 data-i18n="home.titleHero" class="mb-3" id="title">Buy and sell Bitcoin and other Cryptocurrencies with cash</h1>
+                            <p data-i18n="home.titleContent" class="para-desc text-muted">We are helping people all over the world to become crypto investors in a more accessible way.</p>
                             <div class="mt-4 pt-2">
-                                <a href="https://app.cryptosx.io/signup" title="sign up at Cryptosx" class="btn btn-success mb-2 mr-4">Get Started</a>
-                                <a href="https://app.cryptosx.io/tradeview" target="_blank" title="sign up at Cryptosx" class="btn btn-outline-primary mb-2">View Exchange</a>
+                                <a data-i18n="home.getStarted" href="https://app.cryptosx.io/signup" title="sign up at Cryptosx" class="btn btn-success mb-2 mr-4">Get Started</a>
+                                <a data-i18n="home.viewExchange" href="https://app.cryptosx.io/tradeview" target="_blank" title="sign up at Cryptosx" class="btn btn-outline-primary mb-2">View Exchange</a>
                                 <!-- <a href="page-contact-one.html" class="btn btn-outline-primary mb-2">Free Trial</a> -->
                             </div>
                         </div>
@@ -785,5 +795,6 @@
         </script>
         <!-- Main Js -->
         <script src="js/app.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>

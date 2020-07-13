@@ -81,7 +81,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     #topnav {
         .navigation-menu {
             > .has-submenu {
@@ -116,7 +116,7 @@
     }
 }
   
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
     #topnav {
         background-color: $white;
         box-shadow: $shadow;

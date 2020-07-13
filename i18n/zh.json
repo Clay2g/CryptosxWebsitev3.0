@@ -1,0 +1,42 @@
+{
+    "home": {
+        "titleBanner": "增加了电话存款支持 📱",
+        "titleHero": "用现金买卖比特币和其他加密货币",
+        "titleContent": "我们正在帮助世界各地的人们以更便捷的方式成为加密货币投资者。",
+        "getStarted": "Get Started",
+        "viewExchange": "View Exchange"
+    },
+    "topNav": {
+        "home": "home",
+        "login": "Log in",
+        "signup": "Sign up",
+        "products": {
+            "products": "Products",
+            "cryptoCurrencies": "Cryptocurrencies",
+            "cryptoExchange": "Crypto Exchange",
+            "mobileApp": "Mobile App",
+            "cryptosxDEX": "Cryptosx Dex",
+            "securityTokens": "Security Tokens",
+            "investorPortal": "investor Portal",
+            "investorAccreditationPortal": "investor Accreditation Portal",
+            "assetTokenization": "Asset Tokenization",
+            "stoSolutions": "STO Solutions",
+            "assetTokenizationSoftware": "Asset Tokenization Software"
+        },
+        "company": {
+            "company": "Comapny",
+            "blog": "Blog",
+            "aboutUs": "About Us",
+            "privacyPolicy": "Privacy Policy",
+            "tnc": "Terms & Conditions"
+        },
+        "help": {
+            "help": "Help",
+            "faq": "FAQ",
+            "fees": "Fees Schedule",
+            "supportCenter": "Support Center",
+            "API": "API Documentation"
+        },
+        "language": "中文"
+    }
+}
