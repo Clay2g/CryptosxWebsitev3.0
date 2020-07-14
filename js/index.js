@@ -76,7 +76,7 @@ class Translator {
 
   get defaultConfig() {
     return {
-      persist: false,
+      persist: true,
       languages: ["en", "zh"],
       defaultLanguage: "en",
       filesLocation: "/i18n"
@@ -85,7 +85,7 @@ class Translator {
 }
 
 var translator = new Translator({
-  persist: false,
+  persist: true,
   languages: [ "en", "zh"],
   defaultLanguage: "en",
   detectLanguage: true,

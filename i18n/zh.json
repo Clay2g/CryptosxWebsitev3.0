@@ -3,40 +3,126 @@
         "titleBanner": "增加了电话存款支持 📱",
         "titleHero": "用现金买卖比特币和其他加密货币",
         "titleContent": "我们正在帮助世界各地的人们以更便捷的方式成为加密货币投资者。",
-        "getStarted": "Get Started",
-        "viewExchange": "View Exchange"
+        "getStarted": "马上开户",
+        "viewExchange": "交易所"
+    },
+    "prices": {
+        "coin": "币种",
+        "lastPx": "最新价格",
+        "24h": "24h 涨幅",
+        "buy": "购买"
+    },
+    "bank": {
+        "title": "用当地货币,法币购买比特币",
+        "paragraph": "通过银行电汇免费为您的交易账户充值和购买比特币",
+        "li1": "✅ 受监管的持牌交易所",
+        "li2": "✅ $0 免费充值 ( 银行手续费除外 )",
+        "li3": "✅ SWIFT / FPS 国际转账",
+        "li4": "✅ 支持7种以上的货币: 🇺🇸 🇪🇺 🇭🇰 🇬🇧 🇦🇺 🇯🇵",
+        "btn": "了解更多 >"
+    },
+    "features": {
+        "title": "加密货币钱包",
+        "paragraph": "即时发送和接收比特币和其他加密货币",
+        "title2": "进阶 API",
+        "paragraph2": "匹配引擎采用与投资银行和对冲基金相同的技术构建",
+        "title3": "一键购买",
+        "paragraph3": "借助我们的即时订购功能轻松地买卖加密资产",
+        "title4": "法定货币支持",
+        "paragraph4": "轻松从世界任何地方添加或提取资金"
+    },
+    "wallet": {
+        "title": "机构级安全",
+        "paragraph": "1亿美元的劳埃德保险（Lloyd’s Insurance）涵盖了所有钱包。 进行年度第三方安全审计，以确保所有资金都在我们手中。",
+        "li1": "100％多签名钱包技术",
+        "li2": "  确定性和隔离的冷钱包",
+        "li3": "年度安全审查"
+    },
+    "words": {
+        "paragraph1": "Greenpro Capital Corp.签署了收购First Bullion Inc. 18％的意向书--'在新一代受监管的加密投资银行的支持下，First Bullion的Cryptosx数字资产交易所得到了我们的大力支持，我们可以与ADAQ产生显着的协同效应 我们坚信这种伙伴关系将为我们的投资者和其他利益相关者创造价值。'",
+        "paragraph2": "'Cryptosx数字资产交易所是拥有CEZA OVCE许可证的示例实体.Cryptosx使用区块链或分布式账本技术来数字化资产。 然后，将数字化资产打包到智能合约中，以便迅速在各个司法管辖区和市场之间进行部署。 此外，在潜在投资者可以访问DATO之前，它使用区块链进行反洗钱和KYC（了解您的客户）身份验证。'",
+        "paragraph3": "'FLOURISH CITY DEVELOPMENT LIMITED (“FCD”) 今天宣布，AGWD是首个获得资产支持的代币，该代币由Cagayan经济区管理局（“ CEZA”）和亚洲区块链与加密协会（“ ABACA”）根据CEZA的数字资产代币发行（“ DATO”）规则。 AGWD令牌将提供给合格的投资者，并将在CEZA许可的Cryptosx数字资产交易所（“ Cryptosx”）上进行交易。'"
+    },
+    "steps": {
+        "title": "如何开始购买加密货币？",
+        "paragraph": "立即开始构建您的加密货币投资组合。 仅几步即可上手。",
+        "stepA1": "1. 建立帐户",
+        "stepA2": "注册并验证您的电子邮件地址",
+        "stepB1": "2. 验证身份",
+        "stepB2": "这是为了遵守我们的KYC和法规要求",
+        "stepC1": "3. 存入资金",
+        "stepC2": "通过加密或银行转账为您的帐户注资",
+        "stepD1": "4. 开始交易",
+        "stepD2": "随时随地买卖数字资产"
+    },
+    "mobile": {
+        "title": "Cryptosx 的加密货币交易所掌握在您的手中。",
+        "paragraph": "立即下载Cryptosx Mobile应用程序",
+        "apple": "App Store",
+        "google": "Play Store"
     },
     "topNav": {
-        "home": "home",
-        "login": "Log in",
-        "signup": "Sign up",
+        "home": "主页",
+        "login": "登入",
+        "signup": "开户",
         "products": {
-            "products": "Products",
-            "cryptoCurrencies": "Cryptocurrencies",
-            "cryptoExchange": "Crypto Exchange",
-            "mobileApp": "Mobile App",
-            "cryptosxDEX": "Cryptosx Dex",
-            "securityTokens": "Security Tokens",
-            "investorPortal": "investor Portal",
-            "investorAccreditationPortal": "investor Accreditation Portal",
-            "assetTokenization": "Asset Tokenization",
-            "stoSolutions": "STO Solutions",
-            "assetTokenizationSoftware": "Asset Tokenization Software"
+            "products": "产品",
+            "cryptoCurrencies": "加密货币",
+            "cryptoExchange": "交易所",
+            "mobileApp": "手机 App",
+            "cryptosxDEX": "去中心化交易平台",
+            "securityTokens": "数字资产代币",
+            "investorPortal": "专业投资者网站",
+            "investorAccreditationPortal": "专业投资者审核通道",
+            "assetTokenization": "资产代币化",
+            "stoSolutions": "STO 上币服务",
+            "assetTokenizationSoftware": "资产代币化软件"
         },
         "company": {
-            "company": "Comapny",
-            "blog": "Blog",
-            "aboutUs": "About Us",
-            "privacyPolicy": "Privacy Policy",
-            "tnc": "Terms & Conditions"
+            "company": "关于我们",
+            "blog": "资讯",
+            "aboutUs": "关于我们",
+            "privacyPolicy": "隐私政策",
+            "tnc": "条款及细则"
         },
         "help": {
-            "help": "Help",
-            "faq": "FAQ",
-            "fees": "Fees Schedule",
-            "supportCenter": "Support Center",
-            "API": "API Documentation"
+            "help": "帮助中心",
+            "faq": "常问问题",
+            "fees": "费用表",
+            "supportCenter": "帮助中心",
+            "API": "API 文档"
         },
-        "language": "中文"
+        "language": "English"
+    },
+    "footer": {
+        "cryptosx": "Cryptosx™ 是First Bullion Holdings Inc.的子公司。我们很高兴在社交媒体上与您取得联系。",
+        "address": "20B, The World Center Condomium Sen Gil J. Puyat Ave, Makati City, Metro Manila, Philippines",
+        "products": {
+            "products": "产品",
+            "cryptoCurrencies": "加密货币",
+            "cryptoExchange": "交易所",
+            "mobileApp": "手机 App",
+            "cryptosxDEX": "去中心化交易平台",
+            "securityTokens": "数字资产代币",
+            "investorPortal": "专业投资者网站",
+            "investorAccreditationPortal": "专业投资者审核通道",
+            "assetTokenization": "资产代币化",
+            "stoSolutions": "STO 上币服务",
+            "assetTokenizationSoftware": "资产代币化软件"
+        },
+        "company": {
+            "company": "关于我们",
+            "blog": "资讯",
+            "aboutUs": "关于我们",
+            "privacyPolicy": "隐私政策",
+            "tnc": "条款及细则"
+        },
+        "help": {
+            "help": "帮助中心",
+            "faq": "常问问题",
+            "fees": "费用表",
+            "supportCenter": "帮助中心",
+            "API": "API 文档"
+        }
     }
 }

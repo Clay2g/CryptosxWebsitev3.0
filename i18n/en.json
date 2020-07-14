@@ -6,6 +6,59 @@
         "getStarted": "Get Started",
         "viewExchange": "View Exchange"
     },
+    "prices": {
+        "coin": "Coin",
+        "lastPx": "Last Price",
+        "24h": "24h Change",
+        "buy": "Buy"
+    },
+    "bank": {
+        "title": "Buy Bitcoin with your local currency",
+        "paragraph": "Wire funds from your bank account to buy crypto assets with your money instantly",
+        "li1": "✅ Licensed Digital Assets Exchange",
+        "li2": "✅ $0 Deposit Fee ( bank charges apply )",
+        "li3": "✅ SWIFT / FPS International Transfers",
+        "li4": "✅ Supports 7+ Currencies: 🇺🇸 🇪🇺 🇭🇰 🇬🇧 🇦🇺 🇯🇵",
+        "btn": "Read More >"
+    },
+    "features": {
+        "title": "Cryptocurrency wallets",
+        "paragraph": "Instantly send and receive Bitcoin and other cryptocurrencies",
+        "title2": "Advanced API",
+        "paragraph2": "Matching engine built with the same technology used by investment banks and hedge funds",
+        "title3": "One-Click buy",
+        "paragraph3": "Effortlessly buy and sell cryptoassets with our instant order feature",
+        "title4": "Fiat currencies support",
+        "paragraph4": "Add or withdraw funds from anywhere in the world easily"
+    },
+    "wallet": {
+        "title": "Institutional grade security",
+        "paragraph": "All wallets covered by $100m Lloyd’s Insurance. Annual 3rd party security audits are done to make sure all funds are safe in our hands.",
+        "li1": "100% multi-sig wallet technology",
+        "li2": "  Deterministic and segregated cold wallets",
+        "li3": " Annual security review"
+    },
+    "words": {
+        "paragraph1": "Greenpro Capital Corp. Signs Letter of Intent to Acquire 18% in First Bullion Inc. - 'With the Cryptosx Digital Assets Exchange from First Bullion, supported by the new generation regulated crypto investment bank, we could have a significant synergistic effect together with ADAQ. We strongly believe the partnership will create values for our investors and other stakeholders.'",
+        "paragraph2": "'Cryptosx Digital Assets Exchange is an example entity that has a CEZA OVCE license.Cryptosx uses blockchain or distributed ledger technology to digitize assets. The digitized assets are then packaged into smart contracts that rapidly get deployed across jurisdictions and markets. Additionally, it uses blockchain for anti-money laundering and KYC (know-your-customer) authentications before potential investors can access the DATOs.'",
+        "paragraph3": "'FLOURISH CITY DEVELOPMENT LIMITED (“FCD”) today announces that AGWD is the first asset-backed token approved by Cagayan Economic Zone Authority (“CEZA”) and Asia Blockchain and Crypto Association (“ABACA”) under CEZA’s Digital Asset Token Offering (“DATO”) Rules. The AGWD tokens will be offered to accredited investors and will be traded on Cryptosx Digital Assets Exchange (“Cryptosx”) licensed by CEZA.'"
+    },
+    "steps": {
+        "title": "How it works?",
+        "paragraph": "Start building your Crypto portfolio today. Just a few steps to get started.",
+        "stepA1": "1. Create Account",
+        "stepA2": "Sign up and verify your email address",
+        "stepB1": "2. Verify Identity",
+        "stepB2": "This is to comply with our KYC requirements",
+        "stepC1": "3. Add Funds",
+        "stepC2": "Fund your account with crypto or bank transfers",
+        "stepD1": "4. Start Trading",
+        "stepD2": "Buy and sell digital assets anytime, anywhere"
+    },
+    "mobile": {
+        "title": "Cryptosx's cryptocurrency exchange in your hands.",
+        "paragraph": "Download the Cryptosx Mobile app now"
+    },
     "topNav": {
         "home": "home",
         "login": "Log in",
@@ -18,7 +71,7 @@
             "cryptosxDEX": "Cryptosx Dex",
             "securityTokens": "Security Tokens",
             "investorPortal": "investor Portal",
-            "investorAccreditationPortal": "investor Accreditation Portal",
+            "investorAccreditationPortal": "Investor Accreditation Portal",
             "assetTokenization": "Asset Tokenization",
             "stoSolutions": "STO Solutions",
             "assetTokenizationSoftware": "Asset Tokenization Software"
@@ -38,5 +91,44 @@
             "API": "API Documentation"
         },
         "language": "中文"
+    },
+    "footer": {
+        "cryptosx": "Cryptosx™ is a subsidiary of First Bullion Holdings Inc. We would be delighted to get in touch with you on social media.",
+        "products": {
+            "products": "Products",
+            "cryptoCurrencies": "Cryptocurrencies",
+            "cryptoExchange": "Crypto Exchange",
+            "mobileApp": "Mobile App",
+            "cryptosxDEX": "Cryptosx Dex",
+            "securityTokens": "Security Tokens",
+            "investorPortal": "investor Portal",
+            "investorAccreditationPortal": "Investor Accreditation Portal",
+            "assetTokenization": "Asset Tokenization",
+            "stoSolutions": "STO Solutions",
+            "assetTokenizationSoftware": "Asset Tokenization Software"
+        },
+        "company": {
+            "company": "Comapny",
+            "blog": "Blog",
+            "aboutUs": "About Us",
+            "privacyPolicy": "Privacy Policy",
+            "tnc": "Terms & Conditions"
+        },
+        "help": {
+            "help": "Help",
+            "faq": "FAQ",
+            "fees": "Fees Schedule",
+            "supportCenter": "Support Center",
+            "API": "API Documentation"
+        }
+    },
+    "mobilePage": {
+        "hero": {
+            "title": "Pocket sized Full exchange",
+            "subTitle": "Full exchange functionality packed in an app. Uninterrupted access to your cryptocurrencies, wallets and real-time market data. Buy, sell and transfer digital assets on the go."
+        },
+        "features": {
+            "title": "App Features"
+        }
     }
 }
