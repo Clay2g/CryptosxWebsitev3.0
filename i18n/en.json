@@ -109,7 +109,7 @@
             "assetTokenizationSoftware": "Asset Tokenization Software"
         },
         "company": {
-            "company": "Comapny",
+            "company": "Company",
             "blog": "Blog",
             "aboutUs": "About Us",
             "privacyPolicy": "Privacy Policy",
@@ -149,7 +149,7 @@
             "title": "Send crypto to anyone anywhere",
             "subTitle": "With our mobile app, now you can send cryptocurrencies to anyone on the go",
             "li1": "✅ Quick withdraw process",
-            "li2": "✅ Avaliable anytime",
+            "li2": "✅ Available anytime",
             "li3": "✅ Support 7+ major cryptocurrencies"
         },
         "receiveCrypto": {
@@ -185,7 +185,7 @@
             "agwd": "Flourish City Development Limited",
             "agwdInfo": "Flourish City Development (“FCD”) is the leading plantation owner, developer and producer of OUD oil and related products. It is leveraging advanced biotechnology and farming techniques to significantly increase the success and yield in the delicate inoculation process versus traditional methods.",
             "hcs": "HCS Whiskey Fund",
-            "hcsInfo": "HCS is the first blockchain enabled rare Whisky Investment Fund led by the legendary Howard Cai, whisky expert, top chef, and international food judge. Rare Whisky 101 index APEX 1000 indicates that Whisky as an alternative investment class outperforms traditional investments like gold, stocks and wine by a significant margin.",
+            "hcsInfo": "HCS is the first blockchain enabled rare Whiskey Investment Fund led by the legendary Howard Cai, whiskey expert, top chef, and international food judge. Rare Whiskey 101 index APEX 1000 indicates that Whiskey as an alternative investment class outperforms traditional investments like gold, stocks and wine by a significant margin.",
             "company": "Company Website >"
         },
         "features1": {
@@ -230,7 +230,7 @@
             "feature3b": "Just like our cryptocurrency exchange, fund your trading account with up to 7+ currencies:  🇺🇸 🇪🇺 🇭🇰 🇬🇧 🇦🇺 🇯🇵"
         },
         "partners": "Our Trusted Partners",
-        "partners2": "We work with indus­try-lead­ing ser­vice providers to provide you with the best digital asset trading experience. From issuing to trading of dig­i­tal assets"
+        "partners2": "We work with indus­try-lead­ing ser­vice providers to provide you with the best digital asset trading experience. From issuing to the trading of dig­i­tal assets"
     },
     "sto": {
         "hero": {
@@ -244,7 +244,7 @@
             "subTitle": "Issue your security token under CEZA's Digital Asset Token Offering (DATO) framework",
             "step": "Step",
             "step1a":"Discuss the project",
-            "step1b": "Schedule a call with us to help us get an understanding about your company",
+            "step1b": "Schedule a call with us to help us get an understanding of your company",
             "step1Link": "Contact us >",
             "step2a":"Document preparation for regulatory review",
             "step2b": "Prepare required documents such as: Audit report, valuation report and offering memorandum for CEZA’s regulatory review",
@@ -254,16 +254,16 @@
         },
         "features1": {
             "title": "Fundraise with a proven Regulatory Framework",
-            "subTitle": "Offering fully regulated STO under CEZA and ABACA's Digital Asset Token Offering (DATO) framework from sponsoring to offering. We make it easy for you to launch a digital security.",
+            "subTitle": "Offering fully regulated STO under CEZA and ABACA's Digital Asset Token Offering (DATO) framework from sponsoring to the offering. We make it easy for you to launch digital security.",
             "li1":"3+ Successful STO projects approved and launched with us",
-            "li2": "Automated compliance with proven regulatory framework"
+            "li2": "Automated compliance with a proven regulatory framework"
         },
         "features2": {
             "title": "Cost Reduction and Saving Benefits",
             "subTitle": "Listing your company on a stock exchange via an IPO could be a time consuming and costly process. With an STO, your company can enjoy:",
             "li1":"Reduced legal, valuation, auditing time and costs",
             "li2": "Suitable for projects looking to raise under $10m",
-            "li3": "More flexible fund raising amount",
+            "li3": "More flexible fundraising amount",
             "btn": "Preview our Token Studio "
         },
         "features3": {
@@ -328,13 +328,13 @@
         },
         "features2": {
             "title": "Effortless Token lifecycle Management",
-            "subTitle": "From token creation to management of investors relations, we provide a one-stop solution for your company to continuously manage its tokens throughout the lifecycle.",
+            "subTitle": "From token creation to the management of investor relations, we provide a one-stop solution for your company to continuously manage its tokens throughout the lifecycle.",
             "li1":"Continuous cap table management and reporting",
             "li2": "Automated proceeds distributions"
         },
         "features3": {
             "title": "Interact with your Security Token in Real-time",
-            "subTitle": "Our Issuance Platform interface grants issuers and transfer agents the power to interact with smart contracts in real-time. This ensure token ownerships and transfers will be compliant. All done on the blockchain level, interaction includes:",
+            "subTitle": "Our Issuance Platform interface grants issuers and transfer agents the power to interact with smart contracts in real-time. This ensures token ownerships and transfers will be compliant. All done on the blockchain level, interaction includes:",
             "li1":"Token transfers",
             "li2": "Token minting and burning",
             "li3": "Pause or resume all token transactions"
@@ -354,7 +354,7 @@
         "recent": "Recent Post",
         "follow": "Follow us",
         "post6": {
-            "title": "Global Equity, Cryptocurrency & Whisky Market Update"
+            "title": "Global Equity, Cryptocurrency & Whiskey Market Update"
         },
         "post5": {
             "title": "Cyber Credit Natural Resources Completed US$3 Million Private Placement Within 48 Hours and Listing on Cryptosx"
