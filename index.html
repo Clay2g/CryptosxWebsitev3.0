@@ -796,5 +796,70 @@
         <!-- Main Js -->
         <script src="js/app.js"></script>
         <script src="js/index.js"></script>
+        <script>
+            function monetize(num, decimalPlaces) {
+            return `${(num < 0) ? '' : ''}$${Math.abs(num).toFixed(decimalPlaces)}`;
+          }
+          function monetizeChange(num, decimalPlaces) {
+            return `${(num < 0) ? '-' : '+'}${Math.abs(num).toFixed(decimalPlaces)}`;
+          }
+          
+          const mapInstrumentId2Name = {
+            3: 'BCHUSD',
+            4: 'BTCUSD',
+            7: 'ETHUSD',
+            10: 'LTCUSD',
+            13: 'XRPUSD',
+            21: 'CCTUSDT',
+            22: 'AGWDUSD'
+          };
+          
+          function updatePrice() {
+            Object.keys(mapInstrumentId2Name).forEach((instrumentId, indexInstrumentId) => setTimeout(() => {
+              const httpReq = new XMLHttpRequest();
+              
+              httpReq.onreadystatechange = function (event) {
+                if (httpReq.readyState === 4 && httpReq.status === 200) {
+                  const jsonInstrument = JSON.parse(httpReq.responseText);
+                  //console.log(`id = ${jsonInstrument['instrumentid']}, price = ${parseFloat(jsonInstrument['lasttradedpx'])}`);
+                  document.getElementById(`price-${mapInstrumentId2Name[`${jsonInstrument['instrumentid']}`]}`).innerText
+                    = monetize(parseFloat(jsonInstrument['lasttradedpx']), (jsonInstrument['instrumentid'] === 13) ? 5 : 2);
+        
+                    document.querySelector(`span#change-${mapInstrumentId2Name[`${jsonInstrument['instrumentid']}`]}`).innerText
+                    = `${monetizeChange(parseFloat(jsonInstrument['rolling24hrpxchange']).toFixed(2), 2)}%`;
+        
+                    document.querySelector(`h5#change-${mapInstrumentId2Name[`${jsonInstrument['instrumentid']}`]}`).innerText
+                    = `${monetizeChange(parseFloat(jsonInstrument['rolling24hrpxchange']).toFixed(2), 2)}%`;
+        
+                    if (parseFloat(jsonInstrument['rolling24hrpxchange']).toFixed(2) >= 0) {
+                      document.querySelector(`span#change-${mapInstrumentId2Name[`${jsonInstrument['instrumentid']}`]}`).style.color =
+                      '#05B169'
+                      document.querySelector(`h5#change-${mapInstrumentId2Name[`${jsonInstrument['instrumentid']}`]}`).style.color =
+                      '#05B169'
+                    } else {
+                      document.querySelector(`span#change-${mapInstrumentId2Name[`${jsonInstrument['instrumentid']}`]}`).style.color =
+                      'red'
+                      document.querySelector(`h5#change-${mapInstrumentId2Name[`${jsonInstrument['instrumentid']}`]}`).style.color =
+                      'red'
+                    };
+          
+                  if (jsonInstrument['instrumentid'] === 4)
+                    document.getElementById(`pricet-${mapInstrumentId2Name[`${jsonInstrument['instrumentid']}`]}`).innerHTML = 
+                      `(${document.getElementById(`price-${mapInstrumentId2Name[`${jsonInstrument['instrumentid']}`]}`).innerHTML} BTC/USD) Cryptosx | Licensed Global Digital Asset Exchange`;
+                }
+              };
+              httpReq.open('POST', 'https://widgets.cryptosx.io');
+              //httpReq.open('POST', 'http://localhost:2000');
+              httpReq.setRequestHeader("Content-Type", "application/json");
+              // httpReq.setRequestHeader("Access-Control-Allow-Origin", "*");
+          
+              httpReq.send(JSON.stringify({
+                instrumentId: instrumentId
+              }))
+            }, (indexInstrumentId + 1) * 0.2 * 1e3));
+          }
+          updatePrice();
+          setInterval(updatePrice, 300 * 1e3);
+            </script>
     </body>
 </html>
