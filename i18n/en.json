@@ -63,6 +63,7 @@
         "home": "home",
         "login": "Log in",
         "signup": "Sign up",
+        "demo": "Request a demo",
         "products": {
             "products": "Products",
             "cryptoCurrencies": "Cryptocurrencies",
@@ -128,7 +129,282 @@
             "subTitle": "Full exchange functionality packed in an app. Uninterrupted access to your cryptocurrencies, wallets and real-time market data. Buy, sell and transfer digital assets on the go."
         },
         "features": {
-            "title": "App Features"
+            "title": "App Features",
+            "subTitle": "Download and install Cryptosx Mobile. Buy, sell and manage your cryptocurrency portfolio on the move.",
+            "a1": "Use On Any Device",
+            "a2": "Supports both iOS and Android",
+            "b1": "Wallet Integration",
+            "b2": "Send and receive crypto directly to your Cryptosx Account",
+            "c1": "Advanced market data",
+            "c2": "Check prices and market movements at your fingertips",
+            "d1": "Mobile verification",
+            "d2": "Integrated with Jumio™, verify your account anywhere",
+            "e1": "3 Orders Types",
+            "e2": "Simple yet advanced order types, buying crypto is never easier",
+            "f1": "Portfolio Management",
+            "f2": "Keep an eye on your crypto portfolio anytime anywhere"
+        },
+        "sendCrypto": {
+            "sendCrypto": "Send Crypto",
+            "title": "Send crypto to anyone anywhere",
+            "subTitle": "With our mobile app, now you can send cryptocurrencies to anyone on the go",
+            "li1": "✅ Quick withdraw process",
+            "li2": "✅ Avaliable anytime",
+            "li3": "✅ Support 7+ major cryptocurrencies"
+        },
+        "receiveCrypto": {
+            "receiveCrypto": "Receive Crypto",
+            "title": "Collect crypto from your friends",
+            "subTitle": "All crypto received via the app will be added to your Cryptosx account",
+            "li1": "✅ Best in class wallet security",
+            "li2": "✅ Receive cryptocurrencies on the move",
+            "li3": "✅ Integration with Cryptosx exchange"
+        },
+        "simpleOrders": {
+            "simpleOrders": "Simple Orders",
+            "title": "3 major order types supported",
+            "subTitle": "Buy and sell cryptocurrencies 24 / 7",
+            "li1": "✅ Market, Limit and Stop Orders",
+            "li2": "✅ Full Crpyotsx orderbook and liquidity",
+            "li3": "✅ Marketplaces available 24/7"
+        },
+        "getApp": "Get the App now !"
+    },
+    "investorPortal": {
+        "hero": {
+            "title": "Investor Portal",
+            "subTitle": "Marketplace and secondary market designed for Security Tokens, STOs, professional investors and entrepreneurs",
+            "login": "Log in",
+            "btn": "Start Accreditation"
+        },
+        "projects": {
+            "title": "Live projects listed with us",
+            "subTitle": "Buy and Sell Digital Asset Tokens all backed by Real Assets",
+            "cct": "Cyber Credit Natural Resources Group",
+            "cctInfo": "Invest in a fully managed copper mine with smart mining technologies, together with the aid of artificial intelligence, the overall mining process will be safe, cost effective and easy to manage. This will contribute substantially to the financial side of the business, and is an edge of the Group compared to other players in the industry.",
+            "agwd": "Flourish City Development Limited",
+            "agwdInfo": "Flourish City Development (“FCD”) is the leading plantation owner, developer and producer of OUD oil and related products. It is leveraging advanced biotechnology and farming techniques to significantly increase the success and yield in the delicate inoculation process versus traditional methods.",
+            "hcs": "HCS Whiskey Fund",
+            "hcsInfo": "HCS is the first blockchain enabled rare Whisky Investment Fund led by the legendary Howard Cai, whisky expert, top chef, and international food judge. Rare Whisky 101 index APEX 1000 indicates that Whisky as an alternative investment class outperforms traditional investments like gold, stocks and wine by a significant margin.",
+            "company": "Company Website >"
+        },
+        "features1": {
+            "title": "Security Token Marketplace",
+            "subTitle": "As Asia's leading trading platform for digital securities. We connect you with eligible assets based on your qualifications and enforce relevant regulations automatically with every trade.",
+            "li1":"Buy and sell private shares with protection",
+            "li2": "All listed offerings approved by CEZA"
+        },
+        "features2": {
+            "title": "Access More Investment Opportunities",
+            "subTitle": "Browse a selection of security tokens that are backed by traditional securities such as equities, bonds and options.",
+            "li1":"Gain exposure to new opportunities and asset classes",
+            "li2": "Buy and sell private shares from other investors"
+        },
+        "process": {
+            "title": "Trading Process",
+            "subTitle": "Start trading digital asset tokens in 4 simple steps.",
+            "step": "Step",
+            "step1a":"Create your Cryptosx account 👩🏻‍💻 👨🏻‍💻",
+            "step1b": "Sign up at Cryptosx and become an exchange member",
+            "step1Link": "Sign up now >",
+            "step2a":"Get Verified and Accredited ✅",
+            "step2b": "Click on the link below to apply for investor accreditation",
+            "step2Link": "Investor Accreditation Portal >",
+            "step3a":"Add funds to your trading account",
+            "step3b": "Fund your trading account with USDT or Bank Wire",
+            "step3Link": "Learn more >",
+            "step4a":"Start Trading",
+            "step4b": "Once the order is matched, the digital assets tokens will be in your trading account",
+            "step4Link": "Learn how >"
+        },
+        "trading": {
+            "title": "Faster, Simpler Trading",
+            "subTitle1": "Traditional settlement of alternative assets can take over 4 weeks to process. Our technology streamlines those manual processes on the backend, settling most trades within minutes.",
+            "subTitle2": "That means less market friction and more accessible capital.",
+            "span": "Through Investor Portal, qualified investors can Buy and Sell private shares from other investors 24/7/365.",
+            "feature1a": "Trade 24/7",
+            "feature1b": "Buy, sell and exchange security tokens with other qualified investors around the clock",
+            "feature2a": "Regulated & Compliant",
+            "feature2b": "Digital asset exchange registered with the Cagayan Special Economic Zone Authority",
+            "feature3a": "Multi-currency support",
+            "feature3b": "Just like our cryptocurrency exchange, fund your trading account with up to 7+ currencies:  🇺🇸 🇪🇺 🇭🇰 🇬🇧 🇦🇺 🇯🇵"
+        },
+        "partners": "Our Trusted Partners",
+        "partners2": "We work with indus­try-lead­ing ser­vice providers to provide you with the best digital asset trading experience. From issuing to trading of dig­i­tal assets"
+    },
+    "sto": {
+        "hero": {
+            "title": "Security Tokens Issuance",
+            "subTitle": "Launch your STO within a regulated framework, lowers regulatory risks, unlock liquidity.",
+            "preview": " Preview our platform",
+            "download": " View Case Study"
+        },
+        "process": {
+            "title": "Security Token Launch Process",
+            "subTitle": "Issue your security token under CEZA's Digital Asset Token Offering (DATO) framework",
+            "step": "Step",
+            "step1a":"Discuss the project",
+            "step1b": "Schedule a call with us to help us get an understanding about your company",
+            "step1Link": "Contact us >",
+            "step2a":"Document preparation for regulatory review",
+            "step2b": "Prepare required documents such as: Audit report, valuation report and offering memorandum for CEZA’s regulatory review",
+            "step3a":"Token creation and primary offering",
+            "step3b": "Once the project has been approved, we will create the security token and list it onto our security token exchange - Investor Portal",
+            "step3Link": "View our Investor Portal >"
+        },
+        "features1": {
+            "title": "Fundraise with a proven Regulatory Framework",
+            "subTitle": "Offering fully regulated STO under CEZA and ABACA's Digital Asset Token Offering (DATO) framework from sponsoring to offering. We make it easy for you to launch a digital security.",
+            "li1":"3+ Successful STO projects approved and launched with us",
+            "li2": "Automated compliance with proven regulatory framework"
+        },
+        "features2": {
+            "title": "Cost Reduction and Saving Benefits",
+            "subTitle": "Listing your company on a stock exchange via an IPO could be a time consuming and costly process. With an STO, your company can enjoy:",
+            "li1":"Reduced legal, valuation, auditing time and costs",
+            "li2": "Suitable for projects looking to raise under $10m",
+            "li3": "More flexible fund raising amount",
+            "btn": "Preview our Token Studio "
+        },
+        "features3": {
+            "title": "Battle-Tested Primary Offering and Secondary Trading Platform",
+            "subTitle": "A secure, stable web-based solution that safeguards all digital exchange data by layered architecture. Providing enhanced security protocol for all customer assets.",
+            "li1":"Order Management System powered by Alphapoint",
+            "li2": "Fully customizable offering profiles and more"
+        },
+        "projects": {
+            "title": "Live Digital Securities issued with us",
+            "subTitle": "Portfolio companies that we have work with since 2018",
+            "cct": "Cyber Credit Natural Resources Group",
+            "cctInfo1": "Listing date: May 2020",
+            "cctInfo2": "Deal Size: $3M USD",
+            "cctInfo3": "Asset Class: Equity",
+            "cctInfo4": "Sector: Mining",
+            "cctInfo5": "Platform: Ethereum",
+            "cctInfo6": "Symbol: CCT",
+            "cctInfo7": "Raising: $3,000,000 USD",
+            "agwd": "Flourish City Development Limited",
+            "agwdInfo1": "Listing date: July 2019",
+            "agwdInfo2": "Deal Size: $3M USD",
+            "agwdInfo3": "Asset Class: Equity",
+            "agwdInfo4": "Sector: Biotechnology",
+            "agwdInfo5": "Platform: Ethereum",
+            "agwdInfo6": "Symbol: AGWD",
+            "agwdInfo7": "Raising: $3,000,000 USD",
+            "hcs": "HCS Whiskey Fund",
+            "hcsInfo1": "Listing date: October 2020 (TBD)",
+            "hcsInfo2": "Deal Size: $25M USD",
+            "hcsInfo3": "Asset Class: Alternative Assets",
+            "hcsInfo4": "Sector: Whiskey",
+            "hcsInfo5": "Token: TBD",
+            "hcsInfo6": "Upcoming STO",
+            "hcsInfo7": "Fund Size: $25M USD"
+        },
+        "contact": {
+            "title": "Find out more about our STO Platform",
+            "subTitle": "Contact our sales to schedule a demo!",
+            "btn": "Request a Demo"
+        }
+    },
+    "digitizer": {
+        "hero": {
+            "title": "Tokenize",
+            "subTitle": "Tokenized assets transform the capital formation process by automating costly compliance requirements through a transparent & immutable ledger",
+            "demo": "Request a demo"
+        },
+        "benefits": {
+            "step1a":"Fractional Ownership",
+            "step1b": "Tokenized assets enable previously illiquid assets to become more liquid",
+            "step2a":"Cost Reduction",
+            "step2b": "Tokenized assets often enjoy reduced listing, legal, valuation and auditing fees",
+            "step3a":"Rapid Settlement",
+            "step3b": "Transfer of ownership can often be settled within minutes"
+        },
+        "features1": {
+            "title": "Fundraise with our Tokenization Technology",
+            "subTitle": "Proven Security Token templates streamline the process of capital raising to allow faster time to market. Built-in programmatic ownership restrictions, you can sell private securities to a global pool of investors while allowing a liquid secondary market to develop.",
+            "li1": "All token templates verified by third-party security experts",
+            "li2": "Programmed regulatory compliance"
+        },
+        "features2": {
+            "title": "Effortless Token lifecycle Management",
+            "subTitle": "From token creation to management of investors relations, we provide a one-stop solution for your company to continuously manage its tokens throughout the lifecycle.",
+            "li1":"Continuous cap table management and reporting",
+            "li2": "Automated proceeds distributions"
+        },
+        "features3": {
+            "title": "Interact with your Security Token in Real-time",
+            "subTitle": "Our Issuance Platform interface grants issuers and transfer agents the power to interact with smart contracts in real-time. This ensure token ownerships and transfers will be compliant. All done on the blockchain level, interaction includes:",
+            "li1":"Token transfers",
+            "li2": "Token minting and burning",
+            "li3": "Pause or resume all token transactions"
+        },
+        "facts": " USD has been tokenized with our Digitizer",
+        "facts2": "Join the platform trusted by issuers, investors, and regulators.",
+        "contact": {
+            "title": "Learn more about our Asset Tokenization software",
+            "subTitle": "Contact our sales to schedule a demo!",
+            "btn": "Get Started"
+        }
+    },
+    "blog": {
+        "title": " Blog & Articles from the Media",
+        "company": "Company",
+        "blog": "Blog",
+        "recent": "Recent Post",
+        "follow": "Follow us",
+        "post6": {
+            "title": "Global Equity, Cryptocurrency & Whisky Market Update"
+        },
+        "post5": {
+            "title": "Cyber Credit Natural Resources Completed US$3 Million Private Placement Within 48 Hours and Listing on Cryptosx"
+        },
+        "post4": {
+            "title": "Philippines' CEZA Approves Digital Asset Token Offering by Cyber Credit Natural Resources Group"
+        },
+        "post3": {
+            "title": "Blockchain and tokenized securities: The potential for green finance"
+        },
+        "post2": {
+            "title": "CryptoSX launched their first STO with Agarwood under CEZA regulations"
+        },
+        "post1": {
+            "title": "Philippines’ CEZA Approves First Digital Asset Token Offering (DATO)"
+        }
+    },
+    "about": {
+        "title": "About us",
+        "company": "Company",
+        "about": "About us",
+        "aboutCryptosx": {
+            "title": "About Cryptosx",
+            "para1": "Headquartered in Makati, the Philippines and with offices in Manila and Hong Kong. Cryptosx™ is a financial services company providing Digital Assets exchange services as Asia-focused alternative to the world’s dominant bitcoin exchanges (Binance, Bitfinex etc..)",
+            "para2": "Our investors include the top tier investors and financial technology companies from Wall Street, including: Greenpro Capital Corp. (NASDAQ:GRNQ), Alphapoint Inc. and more."
+        },
+        "services": {
+            "title": "Our Services",
+            "para1": "Cryptosx allows trading between USD currency and bitcoin cryptocurrency. It allows USD, EUR, bitcoin, ethereum, tether, litecoin, XRP, or bitcoin cash deposits and withdrawals.",
+            "para2": "Our users can buy or sell Virtual Assets and Digital Assets from or to other Members in exchange for other Virtual Assets or Digital Assets, or for fiat currency;",
+            "li1": "Enter into arrangements to store Virtual Assets and Digital Assets listed on the Site with a third-party custodian;",
+            "li2": "Withdraw any fiat currency balance held in your Account;",
+            "li3": "Transfer Virtual Assets and Digital Assets to a wallet or to other users of such Virtual Assets and Digital Assets outside the Site; and",
+            "li4": "Use Virtual Assets for purchasing goods;"
+        },
+        "story": {
+            "title": "Our Story",
+            "para1": "In 2017, our founders saw the growing trend and market demand for digital finance. With its mission to deliver trust in digital assets, they have founded our mother company - First Bullion Holdings INC, a financial services investment company.",
+            "para2": "In 2018, we became the Principal Licensee authorized by the Cagayan Special Economic Zone and Freeport, the Philippines to conduct Financial Technology Solutions and Offshore Virtual Currency Exchange ('FTSOVC') business activities, including the authority to approve and endorse security token offerings, operation of digital assets exchanges as well as the provision of digital assets wealth management services.",
+            "para3": "In 2019, we completed the Flourish City Development Limited (FCD) STO within 3 months, the first asset-backed token offering approved by CEZA."
+        },
+        "mission": {
+            "title": "Our Mission",
+            "para": "Our mission is to deliver trust in digital assets and make it more accessible. For institutional investors to participate in digital asset market, they need services and solutions they can trust. Cryptosx eliminates risk and increases transparency in the digital asset markets by providing the most secure and compliant custodial, liquidity and exchange solutions.",
+            "value1": "Improve Constantly",
+            "value2": "Care for Customers",
+            "value3": "Detail Oriented",
+            "value4": "Build Trust",
+            "value5": "Simplify Processes",
+            "value6": "Ship Reliable Code"
         }
     }
 }
