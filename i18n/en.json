@@ -148,25 +148,25 @@
             "sendCrypto": "Send Crypto",
             "title": "Send crypto to anyone anywhere",
             "subTitle": "With our mobile app, now you can send cryptocurrencies to anyone on the go",
-            "li1": "✅ Quick withdraw process",
-            "li2": "✅ Available anytime",
-            "li3": "✅ Support 7+ major cryptocurrencies"
+            "li1": " Quick withdraw process",
+            "li2": " Available anytime",
+            "li3": " Support 7+ major cryptocurrencies"
         },
         "receiveCrypto": {
             "receiveCrypto": "Receive Crypto",
             "title": "Collect crypto from your friends",
             "subTitle": "All crypto received via the app will be added to your Cryptosx account",
-            "li1": "✅ Best in class wallet security",
-            "li2": "✅ Receive cryptocurrencies on the move",
-            "li3": "✅ Integration with Cryptosx exchange"
+            "li1": " Best in class wallet security",
+            "li2": " Receive cryptocurrencies on the move",
+            "li3": " Integration with Cryptosx exchange"
         },
         "simpleOrders": {
             "simpleOrders": "Simple Orders",
             "title": "3 major order types supported",
             "subTitle": "Buy and sell cryptocurrencies 24 / 7",
-            "li1": "✅ Market, Limit and Stop Orders",
-            "li2": "✅ Full Crpyotsx orderbook and liquidity",
-            "li3": "✅ Marketplaces available 24/7"
+            "li1": " Market, Limit and Stop Orders",
+            "li2": " Full Crpyotsx orderbook and liquidity",
+            "li3": " Marketplaces available 24/7"
         },
         "getApp": "Get the App now !"
     },
