@@ -147,3 +147,19 @@
       margin-top: 10px;
     }
   }
+
+  @media only screen and (max-width:560px) {
+    td {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .custom-btn.custom-btn--style-2 {
+      margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width:362px) {
+    h1#title {
+      font-size: 2rem;
+    }
+  }

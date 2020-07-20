@@ -55,6 +55,20 @@
         "stepD1": "4. Start Trading",
         "stepD2": "Buy and sell digital assets anytime, anywhere"
     },
+    "media": {
+        "title": "As seen on Media",
+        "read": "Read More"
+    },
+    "learn": {
+        "title": "Learn the Future of Money, tutorials to help you get started!",
+        "para": "We know learning how to use bitcoin and exchanges could be a challenging task, we have created a series of video tutorials to help you learn faster.",
+        "btn": "Our YouTube Channel"
+    },
+    "call": {
+        "title": "Start with as little as $100 USD",
+        "subTitle": "Sign up at Cryptosx and begin your journey into the Crypto world!",
+        "btn": "Get Started !"
+    },
     "mobile": {
         "title": "Cryptosx's cryptocurrency exchange in your hands.",
         "paragraph": "Download the Cryptosx Mobile app now"
