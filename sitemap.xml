@@ -9,12 +9,12 @@
 
 <url>
   <loc>https://cryptosx.io/</loc>
-  <lastmod>2020-07-17T03:09:32+00:00</lastmod>
+  <lastmod>2020-07-21T01:38:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://cryptosx.io/index.html</loc>
-  <lastmod>2020-07-17T03:09:32+00:00</lastmod>
+  <lastmod>2020-07-21T01:38:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -39,7 +39,7 @@
 </url>
 <url>
   <loc>https://cryptosx.io/blog.html</loc>
-  <lastmod>2020-07-17T03:09:30+00:00</lastmod>
+  <lastmod>2020-07-27T07:22:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -58,23 +58,43 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cryptosx.io/documents/CCNR%20Listing%20Annoucement%20(22%20May%202020).pdf</loc>
+  <loc>https://cryptosx.io/post9.html</loc>
+  <lastmod>2020-07-27T07:22:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cryptosx.io/documents/Global%2BEquity%2BInsight%2B(EN)%2Bv2.pdf</loc>
+  <lastmod>2020-07-21T04:24:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cryptosx.io/documents/Global%2BEquity%2BInsight%2B(TC)%2Bv2.pdf</loc>
+  <lastmod>2020-07-21T04:24:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cryptosx.io/post7.html</loc>
+  <lastmod>2020-07-21T03:59:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cryptosx.io/documents/CCNR+Listing+Annoucement+(22+May+2020).pdf</loc>
   <lastmod>2020-07-17T03:09:48+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cryptosx.io/documents/CCNR+Listing+Annoucement+(22+May+2020)+CHINESE.pdf</loc>
-  <lastmod>2020-07-17T05:28:50+00:00</lastmod>
+  <loc>https://cryptosx.io/documents/CCNR%2BListing%2BAnnoucement%2B(22%2BMay%2B2020)%2BCHINESE.pdf</loc>
+  <lastmod>2020-07-17T03:09:43+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cryptosx.io/documents/CCT+DATO+Joint+PR+(CEZA)+20+May+2020.pdf</loc>
-  <lastmod>2020-07-17T05:28:50+00:00</lastmod>
+  <loc>https://cryptosx.io/documents/CCT%2BDATO%2BJoint%2BPR%2B(CEZA)%2B20%2BMay%2B2020.pdf</loc>
+  <lastmod>2020-07-17T03:09:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cryptosx.io/documents/CCT+DATO+Joint+PR+(CEZA)+20+May+2020+(CHINESE).pdf</loc>
-  <lastmod>2020-07-17T05:28:50+00:00</lastmod>
+  <loc>https://cryptosx.io/documents/CCT%2BDATO%2BJoint%2BPR%2B(CEZA)%2B20%2BMay%2B2020%2B(CHINESE).pdf</loc>
+  <lastmod>2020-07-17T03:09:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>

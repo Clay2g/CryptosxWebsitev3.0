@@ -85,7 +85,7 @@
             "mobileApp": "Mobile App",
             "cryptosxDEX": "Cryptosx Dex",
             "securityTokens": "Security Tokens",
-            "investorPortal": "investor Portal",
+            "investorPortal": "STO Exchange",
             "investorAccreditationPortal": "Investor Accreditation Portal",
             "assetTokenization": "Asset Tokenization",
             "stoSolutions": "STO Solutions",
@@ -116,7 +116,7 @@
             "mobileApp": "Mobile App",
             "cryptosxDEX": "Cryptosx Dex",
             "securityTokens": "Security Tokens",
-            "investorPortal": "investor Portal",
+            "investorPortal": "STO Exchange",
             "investorAccreditationPortal": "Investor Accreditation Portal",
             "assetTokenization": "Asset Tokenization",
             "stoSolutions": "STO Solutions",
@@ -186,7 +186,7 @@
     },
     "investorPortal": {
         "hero": {
-            "title": "Investor Portal",
+            "title": "STO Exchange",
             "subTitle": "Marketplace and secondary market designed for Security Tokens, STOs, professional investors and entrepreneurs",
             "login": "Log in",
             "btn": "Start Accreditation"

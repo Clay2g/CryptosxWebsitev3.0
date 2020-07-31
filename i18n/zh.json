@@ -87,7 +87,7 @@
             "mobileApp": "手机 App",
             "cryptosxDEX": "去中心化交易平台",
             "securityTokens": "数字资产代币",
-            "investorPortal": "专业投资者网站",
+            "investorPortal": "STO 交易所",
             "investorAccreditationPortal": "专业投资者审核通道",
             "assetTokenization": "资产代币化",
             "stoSolutions": "STO 上币服务",
@@ -119,7 +119,7 @@
             "mobileApp": "手机 App",
             "cryptosxDEX": "去中心化交易平台",
             "securityTokens": "数字资产代币",
-            "investorPortal": "专业投资者网站",
+            "investorPortal": "STO 交易所",
             "investorAccreditationPortal": "专业投资者审核通道",
             "assetTokenization": "资产代币化",
             "stoSolutions": "STO 上币服务",
@@ -189,7 +189,7 @@
     },
     "investorPortal": {
         "hero": {
-            "title": "专业投资者网站",
+            "title": "STO 交易所",
             "subTitle": "专为数字资产代币，STO，专业投资者和企业家设计的市场和交易所",
             "login": "登入",
             "btn": "开始专业投资者审核"
