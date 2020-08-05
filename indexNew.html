@@ -27,7 +27,7 @@
         <link rel="stylesheet" href="css/owl.theme.default.min.css"/> 
         <!-- Main Css -->
         <link href="css/style-dark.css" rel="stylesheet" type="text/css" id="theme-opt" />
-        <link href="css/custom.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css"/>
         <!-- i18n -->
     </head>
 
@@ -146,37 +146,47 @@
         <!-- Navbar End -->
 
         <!-- Hero Start -->
-        <section class="bg-half-170 d-table w-100 overflow-hidden" id="home">
-            <div class="container">
+        <section class="d-table w-100 overflow-hidden" id="dual-home">
+            <div class="container" id="dual">
                 <div class="row align-items-center pt-5">
-                    <div class="col-lg-7 col-md-6 mt--200">
-                        <div class="title-heading mt-4">
+                    <div class="col-lg-6 col-md-6 mt-200 dual-left">
+                        <div class="title-heading mt-4 dual-text-left">
                             <div class="alert alert-transparent alert-pills shadow" role="alert">
                                 <span class="badge badge-pill badge-primary mr-1">New</span>
                                 <span data-i18n="home.titleBanner" class="content">Added phone deposit support 📱</span>
                             </div>
-                            <h1 data-i18n="home.titleHero" class="mb-3" id="title">Buy and sell Bitcoin and other Cryptocurrencies with cash</h1>
-                            <p data-i18n="home.titleContent" class="para-desc text-muted">We are helping people all over the world to become crypto investors in a more accessible way.</p>
+                            <h1 data-i18n="home.titleHerog" class="heading mb-3" id="title">Crypto currency<br><span></span> Exchange</h1>
+                            <p data-i18n="home.titleContentg" class="para-desc text-muted">For everyone to Buy and Sell BTC, ETH, BCH, XRP, LTC and more</p>
                             <div class="mt-4 pt-2">
                                 <a data-i18n="home.getStarted" href="https://app.cryptosx.io/signup" title="sign up at Cryptosx" class="btn btn-success mb-2 mr-4">Get Started</a>
                                 <a data-i18n="home.viewExchange" href="https://app.cryptosx.io/tradeview" target="_blank" title="sign up at Cryptosx" class="btn btn-outline-primary mb-2">View Exchange</a>
                                 <!-- <a href="page-contact-one.html" class="btn btn-outline-primary mb-2">Free Trial</a> -->
                             </div>
-                            <h5 class="pt-4 mt-2" data-i18n="home.subTitleSTO">For professional investors to Buy and Sell Security Tokens, STOs</h5>
-
-                            <div class="mt-4 pt-2">
-                                <a  style="background-color: white;"data-i18n="home.STOhome" href="investorportal.html" target="_blank" class="btn btn-outline-primary mb-2" title="Log in to investor portal">Go to STO Exchange Home</a>
-                                <!-- <a data-i18n="investorPortal.hero.btn" href="https://accreditation.cryptosx.io" target="_blank" title="link to investor accreditation portal" class="btn btn-primary mb-2">Start Accreditation</a>-->
-                            </div>
                         </div>
                     </div><!--end col-->
+                    <div style="text-align: right;" class="col-lg-6 col-md-6 mt-200 dual-right">
+                        <div class="title-heading dual-text-right mt-4" style="z-index: 1;">
+                            <div style="border-color: rgb(0,0,0,0.4);" class="alert alert-transparent alert-pills shadow" role="alert">
+                                <span class="badge badge-pill badge-primary mr-1">Investor Portal</span>
+                                <span style="color: black;" data-i18n="home.titleBannerg" class="content">Added CCT Token</span>
+                            </div>
+                            <h1 style="color:black" class="heading mb-3">Security Token<br>Exchange</h1>
+                            <p style="color:black" data-i18n="investorPortal.hero.subTitleg">For professional investors to Buy and Sell Security Tokens, STOs
+                            </p>
 
-                    <div class="col-lg-5 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                            <div class="mt-4 pt-2">
+                                <a data-i18n="investorPortal.hero.loging" href="investorportal.html" target="_blank" class="btn btn-outline-primary mb-2" title="Log in to investor portal">Go to STO Exchange Home</a>
+                                <!-- <a data-i18n="investorPortal.hero.btn" href="https://accreditation.cryptosx.io" target="_blank" title="link to investor accreditation portal" class="btn btn-primary mb-2">Start Accreditation</a>-->
+                            </div>
+                        </div><!--
                         <div class="classic-saas-image position-relative">
                             <div class="bg-saas-shape position-relative">
                                 <img src="images/cryptosx_laptop.png" class="mx-auto d-block" alt="">
                             </div>
-                        </div>
+                        </div>-->
+                    </div><!--end col-->
+                    <div class="col-lg-12 text-center dual-image">
+                            <img src="images/cryptosx_laptop.png" alt="" class="img-fluid">
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container--> 
