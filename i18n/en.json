@@ -97,6 +97,7 @@
             "company": "Comapny",
             "blog": "Blog",
             "aboutUs": "About Us",
+            "status": "Status Page",
             "privacyPolicy": "Privacy Policy",
             "tnc": "Terms & Conditions"
         },
@@ -128,6 +129,7 @@
             "company": "Company",
             "blog": "Blog",
             "aboutUs": "About Us",
+            "status": "Status Page",
             "privacyPolicy": "Privacy Policy",
             "tnc": "Terms & Conditions"
         },

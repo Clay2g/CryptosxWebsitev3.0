@@ -99,6 +99,7 @@
             "company": "关于我们",
             "blog": "资讯",
             "aboutUs": "关于我们",
+            "status": "系统状态",
             "privacyPolicy": "隐私政策",
             "tnc": "条款及细则"
         },
@@ -407,6 +408,7 @@
         "title": "关于 Cryptosx",
         "company": "关于我们",
         "about": "关于 Cryptosx",
+        "status": "系统状态",
         "aboutCryptosx": {
             "title": "关于 Cryptosx",
             "para1": "总部位于菲律宾马卡蒂，并在马尼拉和香港设有办事处。 Cryptosx™是一家金融服务公司，提供数字资产交换服务，以亚洲为重点，替代了世界上主要的比特币交易所（Binance，Bitfinex等）。",
