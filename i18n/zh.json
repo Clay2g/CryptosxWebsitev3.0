@@ -373,6 +373,9 @@
         "blog": "资讯",
         "recent": "最新的帖子",
         "follow": "关注我们",
+        "post11": {
+            "title": "市场更新 - 2020年8月9日"
+        },
         "post10": {
             "title": "市场更新 - 2020年7月31日"
         },
@@ -471,5 +474,29 @@
         "28": "结论：在11年之后的今天，比特币似乎已经被政府以及其它机构所接受。随着比特币市场的成熟，它们不仅在金融产品上，而且在对法规遵从性的需求日益增加的情况下，都越来越趋同于传统货币市场。比特币比以往任何时候都更接近大家所期待的辉煌时刻，但对持有人来说，如果他们想兑现，他们必须抛弃反控制论的愿景。",
         "29": " ",
         "30": "Source/Reference: Kraken, OSL, coindesk, CoinMarketCap"
+    },
+    "post11": {
+        "1": "BTC 24 Hour High $11,721",
+        "2": "BTC 24 Hour Low $11,808",
+        "3": "BTC          + 0.81%",
+        "4": "Traditional Markets",
+        "5": "The S&P 500 recorded its fifth positive week out of the past six, moving within 1% of its record high set less than six months ago, and the NASDAQ surpassed its record set in the previous week.",
+        "6": "An index that measures investors’ expectations of short-term stock market volatility fell to its lowest level in nearly six months, before the coronavirus pandemic upended the market. The Cboe Volatility Index ended the week at around 22―still above its historic average, but far below the record closing high of nearly 83 that it set in mid-March.",
+        "7": "Gold prices climbed above $2,000 per ounce on Tuesday for the first time and stayed above that threshold for the rest of the week. The precious metal’s price has recently been driven higher by concerns about the coronavirus pandemic, the global economy, and U.S. dollar volatility.",
+        "8": "The crypto market is on track to lock-in what many are calling a defining week for bitcoin and the broader crypto asset market. The market has, at least for now, been successful in ripping through $352B resistance of the $311B - $352B support/resistance range, a range that we discussed last week as a critical zone for the market to overcome should the bulls look to move higher.",
+        "9": "Market Sentiment: BULLISH",
+        "10": "VIX climbed up 2.7pts to 24.76 overnight off the day’s sentiment",
+        "11": "Historical Volatility",
+        "12": "If we see the market close out the week above $352B, the bulls have a chance of moving onto the next critical level of resistance - $430B.",
+        "13": "However, do note that the market is trading in relatively uncharted waters and what has historically been \"support\" and \"resistance\" was founded on very little price action. Furthermore, it ought to be noted that the market is currently trading in \"overbought\" territory on its 14-day RSI and the MACD indicator is just days away from forming a bearish cross. Both signs seem to suggest that the market is due for a correction. Although bearish in nature, a move back down to $311B could serve the bulls some good - as a successful backtest of $311B, or what has long been resistance, would allow for the bulls to cement said level as support and build the momentum necessary to decisively push through $352B resistance in a bid to $430B.",
+        "14": "It was another valiant effort by BTC in its attempt to tackle the $12,000 mark after being decisively rejected during last weekend. BTC is now trading around $11,830 after an indecisive session during American trading hours where it slowly zigzagged up to $11,900 with some intraday volatility.",
+        "15": "Bulls need to push higher to avoid printing a double top, or even a higher low, on higher time frames - a sign that BTC might be due for a pullback. Immediate support areas rest in the high $10,000.",
+        "16": "Five Points on ETH",
+        "17": "For the first time since September 2018, ETH is trading back above $365 after cracking through the historically significant $250 - $365 support/resistance range.",
+        "18": "While price action above $365 is fairly limited, suffice to say that the next big test for ETH is $550.",
+        "19": "As of today, ETH's 14-week RSI resides in \"overbought\" territory - a cause for concern for the bulls.",
+        "20": "However, look at the Average Directional Index (ADX) and one will see that ETH has entered into a strong trend.",
+        "21": "Higher or lower? Whichever direction ETH may trend, ETH's dominance has broken a multi-month downtrend and still hasn't exhibited any signs of giving up market share anytime soon.",
+        "22": "Source/Reference: Kraken, OSL, coindesk, Deribit, CoinMarketCap, Coincodex, John Hancock Investment, Efficient Frontier, The Block"
     }
 }

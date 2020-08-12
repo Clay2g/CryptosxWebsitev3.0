@@ -371,6 +371,9 @@
         "blog": "Blog",
         "recent": "Recent Post",
         "follow": "Follow us",
+        "post11": {
+            "title": "Market Watch - 9 August 2020"
+        },
         "post10": {
             "title": "Market Watch - 31 July 2020"
         },
@@ -468,5 +471,28 @@
         "28": "This follows the European Union’s new 5AMLD (The European Union’s 5th Anti-Money Laundering Directive), which came into effect at the start of 2020 and requires exchanges to report all cryptocurrency addresses belonging to clients, making sure each Satoshi is accounted for. These recent developments show a clear trend of Bitcoin being integrated into the traditional governance system with no apparent pushback. This leads us to think that increasingly clear regulations on cryptocurrency will be provided by western governments. Bitcoin will be leaving the regulatory twilight zone in favor of a highly supervised existence. Though Bitcoin’s network can transfer 1 dollar as easily as a billion, it’s unlikely, in our opinion, that governments will be highly accepting of unsupervised cross-border activity.",
         "29": "In conclusion: After 11 years, Bitcoin seems to have gotten the government on board, as well as sophisticated institutions. As Bitcoin markets mature, they are becoming more similar to the traditional world’s markets, not only in financial products but also in increasing demands for regulatory compliance. Bitcoin is closer than ever to going to the moon, but it will become increasingly clear to holders that they must leave the cyberpunk vision behind if they want to cash out.",
         "30": "Source/Reference: Kraken, OSL, coindesk, CoinMarketCap"
+    },
+    "post12": {
+        "1": "BTC 24 Hour High $11,721",
+        "2": "BTC 24 Hour Low $11,808",
+        "3": "BTC          + 0.81%",
+        "4": "Traditional Markets",
+        "5": "The S&P 500 recorded its fifth positive week out of the past six, moving within 1% of its record high set less than six months ago, and the NASDAQ surpassed its record set in the previous week.",
+        "6": "An index that measures investors’ expectations of short-term stock market volatility fell to its lowest level in nearly six months, before the coronavirus pandemic upended the market. The Cboe Volatility Index ended the week at around 22―still above its historic average, but far below the record closing high of nearly 83 that it set in mid-March.",
+        "7": "Gold prices climbed above $2,000 per ounce on Tuesday for the first time and stayed above that threshold for the rest of the week. The precious metal’s price has recently been driven higher by concerns about the coronavirus pandemic, the global economy, and U.S. dollar volatility.",
+        "8": "The crypto market is on track to lock-in what many are calling a defining week for bitcoin and the broader crypto asset market. The market has, at least for now, been successful in ripping through $352B resistance of the $311B - $352B support/resistance range, a range that we discussed last week as a critical zone for the market to overcome should the bulls look to move higher.",
+        "9": "Market Sentiment: BULLISH",
+        "10": "Historical Volatility",
+        "11": "If we see the market close out the week above $352B, the bulls have a chance of moving onto the next critical level of resistance - $430B.",
+        "12": "However, do note that the market is trading in relatively uncharted waters and what has historically been \"support\" and \"resistance\" was founded on very little price action. Furthermore, it ought to be noted that the market is currently trading in \"overbought\" territory on its 14-day RSI and the MACD indicator is just days away from forming a bearish cross. Both signs seem to suggest that the market is due for a correction. Although bearish in nature, a move back down to $311B could serve the bulls some good - as a successful backtest of $311B, or what has long been resistance, would allow for the bulls to cement said level as support and build the momentum necessary to decisively push through $352B resistance in a bid to $430B.",
+        "13": "It was another valiant effort by BTC in its attempt to tackle the $12,000 mark after being decisively rejected during last weekend. BTC is now trading around $11,830 after an indecisive session during American trading hours where it slowly zigzagged up to $11,900 with some intraday volatility.",
+        "14": "Bulls need to push higher to avoid printing a double top, or even a higher low, on higher time frames - a sign that BTC might be due for a pullback. Immediate support areas rest in the high $10,000.",
+        "15": "Five Points on ETH",
+        "16": "For the first time since September 2018, ETH is trading back above $365 after cracking through the historically significant $250 - $365 support/resistance range.",
+        "17": "While price action above $365 is fairly limited, suffice to say that the next big test for ETH is $550.",
+        "18": "As of today, ETH's 14-week RSI resides in \"overbought\" territory - a cause for concern for the bulls.",
+        "19": "However, look at the Average Directional Index (ADX) and one will see that ETH has entered into a strong trend.",
+        "20": "Higher or lower? Whichever direction ETH may trend, ETH's dominance has broken a multi-month downtrend and still hasn't exhibited any signs of giving up market share anytime soon.",
+        "21": "Source/Reference: Kraken, OSL, coindesk, Deribit, CoinMarketCap, Coincodex, John Hancock Investment, Efficient Frontier, The Block"
     }
 }
