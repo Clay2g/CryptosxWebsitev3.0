@@ -84,7 +84,12 @@ function updateLastPrice(instrument, price) {
   (e => {
     if (!!e) {
       if (!!price) {
-        new countUp.CountUp(e, price, {decimalPlaces:2,prefix:'$'}).start();
+        ((decimalPlaces, nPrice) => {
+          if (!isNaN(nPrice)) {
+            decimalPlaces = lodashGet(price.split('.')[1], ['length']);
+            new countUp.CountUp(e, price, {decimalPlaces,prefix:'$',duration:0.2}).start();
+          }
+        })(2, parseFloat(price));
       } else {
         e.innerHTML = `$${price || '--'}`;
       }
@@ -97,7 +102,7 @@ function update24HourChange(instrument, change) {
     es.forEach(e => {
       if (!!e) {
         if (!!change) {
-          new countUp.CountUp(e, change, {decimalPlaces:2,suffix:'%'}).start();
+          new countUp.CountUp(e, change, {decimalPlaces:2,suffix:'%',duration:0.2}).start();
         } else {
           e.innerHTML = `${change || '--.--'}%`;
         }
