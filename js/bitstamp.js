@@ -1,72 +1,75 @@
-window.onload = function() {
-  [
-    ['btcusd', 'ethusd', 'bchusd', 'ltcusd', 'xrpusd'],
-  ]
-    .reduce((_, instruments) => {
-      instruments
-        .reduce((acc, instrument) => (
-          (f => acc.then(f))(() => (
-            fetchDetail(instrument)
-              .then(resp => (
-                curry(updateLastPrice)(instrument)(resp[0]),
-                curry(update24HourChange)(instrument)(resp[1])
-              ))
-          ))
-        ), Promise.resolve())
-        .catch(() => {});
-  
-      instruments
-        .forEach(instrument => (
-          rec()((s) => (
-            new Promise(r => setTimeout(r, 8.64*1e7))
-              .then(() => fetch24HourChange(instrument))
-              .then(curry(update24HourChange)(instrument))
-              .catch(() => {})
-              .then(() => [])
-              .then(args => s(...args))
-          ))()
-            .catch(() => {})
-        ));
-      
-      let ws = new WebSocket('wss://ws.bitstamp.net');
-      ws.onopen = function(ev) {
+window.onload = (f => ev => (
+  f(ev),
+  (ev => (
+    [
+      ['btcusd', 'ethusd', 'bchusd', 'ltcusd', 'xrpusd'],
+    ]
+      .reduce((_, instruments) => {
         instruments
           .reduce((acc, instrument) => (
-            (f => acc.then(f))(onmessage => (
-              Promise.resolve({
-                channel: `live_trades_${instrument}`
-              })
-                .then(state => (
-                  ws.send(JSON.stringify({
-                    "event": "bts:subscribe",
-                    "data": {
-                        "channel": state.channel
-                    }
-                  })),
-                  onmessage = (f => (
-                    function(ev) {
-                      (() => {
-                        let channel = lodashGet(parse(ev.data), ['channel']);
-                        let instrument = channel.replace('live_trades_', '');
-                        if (channel === state.channel) {
-                          (price => {
-                            if (!!price) {
-                              updateLastPrice(instrument, price);
-                            }
-                          })(lodashGet(parse(ev.data), ['data', 'price']))
-                        }
-                      })(f(ev))
-                    }
-                  ))(onmessage)
+            (f => acc.then(f))(() => (
+              fetchDetail(instrument)
+                .then(resp => (
+                  curry(updateLastPrice)(instrument)(resp[0]),
+                  curry(update24HourChange)(instrument)(resp[1])
                 ))
             ))
-          ), Promise.resolve(function(ev) {}))
-          .then(onmessage => ws.onmessage = onmessage)
-          .catch(console.log)
-      };
-      ws.onerror = function(ev) {};
-    }, undefined);
-};
+          ), Promise.resolve())
+          .catch(() => {});
+    
+        instruments
+          .forEach(instrument => (
+            rec()((s) => (
+              new Promise(r => setTimeout(r, 8.64*1e7))
+                .then(() => fetch24HourChange(instrument))
+                .then(curry(update24HourChange)(instrument))
+                .catch(() => {})
+                .then(() => [])
+                .then(args => s(...args))
+            ))()
+              .catch(() => {})
+          ));
+        
+        let ws = new WebSocket('wss://ws.bitstamp.net');
+        ws.onopen = function(ev) {
+          instruments
+            .reduce((acc, instrument) => (
+              (f => acc.then(f))(onmessage => (
+                Promise.resolve({
+                  channel: `live_trades_${instrument}`
+                })
+                  .then(state => (
+                    ws.send(JSON.stringify({
+                      "event": "bts:subscribe",
+                      "data": {
+                          "channel": state.channel
+                      }
+                    })),
+                    onmessage = (f => (
+                      function(ev) {
+                        (() => {
+                          let channel = lodashGet(parse(ev.data), ['channel']);
+                          let instrument = channel.replace('live_trades_', '');
+                          if (channel === state.channel) {
+                            (price => {
+                              if (!!price) {
+                                updateLastPrice(instrument, price);
+                              }
+                            })(lodashGet(parse(ev.data), ['data', 'price']))
+                          }
+                        })(f(ev))
+                      }
+                    ))(onmessage)
+                  ))
+              ))
+            ), Promise.resolve(function(ev) {}))
+            .then(onmessage => ws.onmessage = onmessage)
+            .catch(console.log)
+        };
+        ws.onerror = function(ev) {};
+      }, undefined)
+  ))(ev)
+))(window.onload);
 
 function parse(data) {
   try {
@@ -86,7 +89,9 @@ function updateLastPrice(instrument, price) {
       if (!!price) {
         ((decimalPlaces, nPrice) => {
           if (!isNaN(nPrice)) {
-            decimalPlaces = lodashGet(price.split('.')[1], ['length']);
+            if (typeof price === 'string') {
+              decimalPlaces = lodashGet(price.split('.')[1], ['length']);
+            }
             new countUp.CountUp(e, price, {decimalPlaces,prefix:'$',duration:0.2}).start();
           }
         })(2, parseFloat(price));
