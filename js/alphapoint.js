@@ -25,11 +25,7 @@ window.onload = (f => ev => (
                             ((resp) => (
                               resp['InstrumentId'] === dict[instrument]
                                 ? (
-<<<<<<< HEAD
                                   //alert(JSON.stringify(resp, null, 2)),
-=======
-                                 // alert(JSON.stringify(resp, null, 2)),
->>>>>>> 54712791144d631feb593c066762bae8459aa817
                                   ((open, last, change) => (
                                     _updateLastPrice1(instrument, last),
                                     update24HourChange(instrument, change)
