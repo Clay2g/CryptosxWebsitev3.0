@@ -1,3 +1,5 @@
+let _updateLastPrice0 = (f => (a, b) => f(a, b))(updateLastPrice());
+
 window.onload = (f => ev => (
   f(ev),
   (ev => (
@@ -10,8 +12,8 @@ window.onload = (f => ev => (
             (f => acc.then(f))(() => (
               fetchDetail(instrument)
                 .then(resp => (
-                  curry(updateLastPrice)(instrument)(resp[0]),
-                  curry(update24HourChange)(instrument)(resp[1])
+                  F.curry(_updateLastPrice0)(instrument)(resp[0].toString()),
+                  F.curry(update24HourChange)(instrument)(resp[1].toString())
                 ))
             ))
           ), Promise.resolve())
@@ -22,7 +24,7 @@ window.onload = (f => ev => (
             rec()((s) => (
               new Promise(r => setTimeout(r, 8.64*1e7))
                 .then(() => fetch24HourChange(instrument))
-                .then(curry(update24HourChange)(instrument))
+                .then(F.curry(update24HourChange)(instrument))
                 .catch(() => {})
                 .then(() => [])
                 .then(args => s(...args))
@@ -48,14 +50,20 @@ window.onload = (f => ev => (
                     onmessage = (f => (
                       function(ev) {
                         (() => {
-                          let channel = lodashGet(parse(ev.data), ['channel']);
+                          let channel = L.get(parse(ev.data), ['channel']);
                           let instrument = channel.replace('live_trades_', '');
                           if (channel === state.channel) {
-                            (price => {
-                              if (!!price) {
-                                updateLastPrice(instrument, price);
-                              }
-                            })(lodashGet(parse(ev.data), ['data', 'price']))
+                            (price => (
+                              !price
+                                ? undefined
+                                : (
+                                  (price => {
+                                    if (!!price) {
+                                      _updateLastPrice0(instrument, price);
+                                    }
+                                  })(price.toString())
+                                )
+                            ))(L.get(parse(ev.data), ['data', 'price']));
                           }
                         })(f(ev))
                       }
@@ -70,62 +78,6 @@ window.onload = (f => ev => (
       }, undefined)
   ))(ev)
 ))(window.onload);
-
-function parse(data) {
-  try {
-    return JSON.parse(data);
-  } catch (err) {
-    return undefined;
-  }
-};
-
-function lodashGet(obj, path) {
-  return path.reduce((acc, key) => (acc || {})[key], obj);
-}
-
-function updateLastPrice(instrument, price) {
-  (e => {
-    if (!!e) {
-      if (!!price) {
-        ((decimalPlaces, nPrice) => {
-          if (!isNaN(nPrice)) {
-            if (typeof price === 'string') {
-              decimalPlaces = lodashGet(price.split('.')[1], ['length']);
-            }
-            new countUp.CountUp(e, price, {decimalPlaces,prefix:'$',duration:0.2}).start();
-          }
-        })(2, parseFloat(price));
-      } else {
-        e.innerHTML = `$${price || '--'}`;
-      }
-    }
-  })(document.getElementById(`price-${instrument.toUpperCase()}`));
-}
-
-function update24HourChange(instrument, change) {
-  (es => (
-    es.forEach(e => {
-      if (!!e) {
-        if (!!change) {
-          new countUp.CountUp(e, change, {decimalPlaces:2,suffix:'%',duration:0.2}).start();
-        } else {
-          e.innerHTML = `${change || '--.--'}%`;
-        }
-        (change => {
-          if (isNaN(change)) {
-          } else if (change < 0 ) {
-            e.style.color = 'red';
-          } else {
-            e.style.color = 'green';
-          }
-        })(parseFloat(change))
-      }
-    })
-  ))([
-    document.getElementById(`change-${instrument.toUpperCase()}`),
-    document.getElementById(`change0-${instrument.toUpperCase()}`)
-  ]);
-}
 
 function fetchDetail(instrument) {
   return (
@@ -150,23 +102,6 @@ function fetch24HourChange(instrument) {
         ))(parseFloat(res['open']), parseFloat(res['last']))
       ))
   );
-};
-
-function curry(fn) {
-  let _curry = (acc = []) => fn => (
-    (...args) => (
-      (args => {
-        if (fn.length == 0)
-          return fn(...args);
-        if (args.length < fn.length)
-          return _curry(args)(fn);
-        if (fn.length < args.length)
-          throw new Error('curry');
-        return fn(...args);
-      })([...acc,...args])
-    )
-  );
-  return _curry()(fn);
 };
 
 function rec(lift = a => a, unlift = a => a) {

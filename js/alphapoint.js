@@ -1,60 +1,4 @@
-let F = (x => x(x))(x => (
-  (F => ({
-    define: f => (...as) => (
-      (x => x(x))(x => (...as) => (
-        (s => (
-          f(s,...as)
-        ))((...as) => x(x)(...as))
-      ))(...as)
-    ),
-    pipe: (...fs) => (
-      F().define((s, fs, acc) => (
-        fs.length != 0
-          ? (
-            (f => (
-              s(fs, a => acc(f(a)))
-            ))(fs.pop())
-          )
-          : acc
-      ))(fs, a => a)
-    ),
-    compose: (...fs) => (
-      F().define((s, fs, acc) => (
-        fs.length != 0
-          ? (
-            (f => (
-              s(fs, a => f(acc(a)))
-            ))(fs.pop())
-          )
-          : acc
-      ))(fs, a => a)
-    ),
-    curry: f => (
-      F().define((curry, acc, f) => (
-        (...args) => (
-          (args => {
-            if (f.length == 0)
-              return f(...args);
-            if (args.length < f.length)
-              return curry(args, f);
-            if (f.length < args.length)
-              throw new Error('curry');
-            return f(...args);
-          })([...acc,...args])
-        )
-      ))([], f)
-    ),
-    flip: f => curry((a, b) => (f => f(b)(a))(curry(f)))
-  }))(() => x(x))
-));
-
-let L = (x => x(x))(x => (
-  (L => ({
-    get: F.curry((obj, path) => (
-      path.reduce((acc, key) => (acc || {})[key], obj)
-    )),
-  }))(() => x(x))
-));
+let _updateLastPrice1 = (f => (a, b) => f(a, b))(updateLastPrice());
 
 window.onload = (f => ev => (
   f(ev),
@@ -81,11 +25,11 @@ window.onload = (f => ev => (
                             ((resp) => (
                               resp['InstrumentId'] === dict[instrument]
                                 ? (
-                                  alert(JSON.stringify(resp, null, 2)),
+                                  //alert(JSON.stringify(resp, null, 2)),
                                   ((open, last, change) => (
-                                    updateLastPrice(instrument, last),
+                                    _updateLastPrice1(instrument, last),
                                     update24HourChange(instrument, change)
-                                  ))(resp['SessionOpen'], resp['LastTradedPx'], resp['Rolling24HrPxChange'])
+                                  ))(resp['SessionOpen'].toString(), resp['LastTradedPx'].toString(), resp['Rolling24HrPxChange'].toString())
                                 )
                                 : undefined
                             ))(
@@ -145,55 +89,3 @@ window.onload = (f => ev => (
     })
   ))(ev)
 ))(window.onload);
-
-function parse(data) {
-  try {
-    return JSON.parse(data);
-  } catch (err) {
-    return undefined;
-  }
-};
-
-function updateLastPrice(instrument, price) {
-  (e => {
-    if (!!e) {
-      if (!!price) {
-        ((decimalPlaces, nPrice) => {
-          if (!isNaN(nPrice)) {
-            if (typeof price === 'string') {
-              decimalPlaces = lodashGet(price.split('.')[1], ['length']);
-            }
-            new countUp.CountUp(e, price, {decimalPlaces,prefix:'$',duration:0.2}).start();
-          }
-        })(2, parseFloat(price));
-      } else {
-        e.innerHTML = `$${price || '--'}`;
-      }
-    }
-  })(document.getElementById(`price-${instrument.toUpperCase()}`));
-}
-
-function update24HourChange(instrument, change) {
-  (es => (
-    es.forEach(e => {
-      if (!!e) {
-        if (!!change) {
-          new countUp.CountUp(e, change, {decimalPlaces:2,suffix:'%',duration:0.2}).start();
-        } else {
-          e.innerHTML = `${change || '--.--'}%`;
-        }
-        (change => {
-          if (isNaN(change)) {
-          } else if (change < 0 ) {
-            e.style.color = 'red';
-          } else {
-            e.style.color = 'green';
-          }
-        })(parseFloat(change))
-      }
-    })
-  ))([
-    document.getElementById(`change-${instrument.toUpperCase()}`),
-    document.getElementById(`change0-${instrument.toUpperCase()}`)
-  ]);
-}
